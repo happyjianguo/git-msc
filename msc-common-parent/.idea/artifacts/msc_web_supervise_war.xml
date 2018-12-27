@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="msc-web-supervise:war">
+    <output-path>$PROJECT_DIR$/../msc-web-supervise/target</output-path>
+    <root id="archive" name="msc-web-supervise.war">
+      <element id="artifact" artifact-name="msc-web-supervise:war exploded" />
+    </root>
+  </artifact>
+</component>

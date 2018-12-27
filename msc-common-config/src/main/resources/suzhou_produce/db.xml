@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<db> 
+	<projectCode name="SZ" value="SZ"/>
+	<projectCode name="SZ_SUP" value="SZ_SUP"/>
+	
+	<!-- 主数据源 -->
+	<dataSource type="JDBC" name="SZ" jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@10.111.1.160:1521/orcl" jdbc_username="szypjy" jdbc_password="szypjy2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="SZ_SUP" jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@10.111.1.160:1521/orcl" jdbc_username="szsupervise" jdbc_password="szsupervise2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+
+</db>

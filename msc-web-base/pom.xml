@@ -1,0 +1,123 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.shyl</groupId>
+		<artifactId>msc-common-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../msc-common-parent</relativePath>
+	</parent>
+
+	<!-- <groupId>com.shyl</groupId> -->
+	<artifactId>msc-web-base</artifactId>
+	<packaging>war</packaging>
+	<version>${msc-web-base.version}</version>
+
+	<name>msc-web-base</name>
+	<url>http://maven.apache.org</url>
+
+	<build>
+		<finalName>msc-web-base</finalName>
+		<resources>
+			<resource>
+				<targetPath>${project.build.directory}/classes</targetPath>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/*.xml</include>
+					<include>**/*.properties</include>
+				</includes>
+			</resource>
+		</resources>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<!-- <packagingExcludes>WEB-INF/lib/*</packagingExcludes> -->
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.shyl</groupId>
+			<artifactId>msc-common-config</artifactId>
+			<version>${msc-common-config.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.shyl</groupId>
+			<artifactId>msc-facade-sys</artifactId>
+			<version>${msc-facade-sys.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.shyl</groupId>
+			<artifactId>msc-facade-base</artifactId>
+			<version>${msc-facade-base.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.shyl</groupId>
+			<artifactId>msc-facade-client</artifactId>
+			<version>${msc-facade-client.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.shyl</groupId>
+			<artifactId>shyl-common-util</artifactId>
+			<version>${shyl-common-util.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.shyl</groupId>
+			<artifactId>shyl-common-cache</artifactId>
+			<version>${shyl-common-cache.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.shyl</groupId>
+			<artifactId>shyl-common-web</artifactId>
+			<version>${shyl-common-web.version}</version>
+		</dependency>
+		<!-- test -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+
+		<!-- 加入jstl依赖包 -->
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+		</dependency>
+
+		<!-- servlet -->
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>jsp-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>fakepath</groupId>
+			<artifactId>ikanalyzer</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+		</dependency>
+	</dependencies>
+</project>

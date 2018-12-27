@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="msc-web-count:war">
+    <output-path>$PROJECT_DIR$/../msc-web-count/target</output-path>
+    <root id="archive" name="msc-web-count.war">
+      <element id="artifact" artifact-name="msc-web-count:war exploded" />
+    </root>
+  </artifact>
+</component>

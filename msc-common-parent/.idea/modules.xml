@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../client/com.shyl.iml" filepath="$PROJECT_DIR$/../client/com.shyl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-common-config/msc-common-config.iml" filepath="$PROJECT_DIR$/../msc-common-config/msc-common-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msc-common-parent.iml" filepath="$PROJECT_DIR$/msc-common-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-facade-b2b/msc-facade-b2b.iml" filepath="$PROJECT_DIR$/../msc-facade-b2b/msc-facade-b2b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-facade-base/msc-facade-base.iml" filepath="$PROJECT_DIR$/../msc-facade-base/msc-facade-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-facade-client/msc-facade-client.iml" filepath="$PROJECT_DIR$/../msc-facade-client/msc-facade-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-facade-count/msc-facade-count.iml" filepath="$PROJECT_DIR$/../msc-facade-count/msc-facade-count.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-facade-supervise/msc-facade-supervise.iml" filepath="$PROJECT_DIR$/../msc-facade-supervise/msc-facade-supervise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-service-b2b/msc-service-b2b.iml" filepath="$PROJECT_DIR$/../msc-service-b2b/msc-service-b2b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-service-base/msc-service-base.iml" filepath="$PROJECT_DIR$/../msc-service-base/msc-service-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-service-client/msc-service-client.iml" filepath="$PROJECT_DIR$/../msc-service-client/msc-service-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-service-count/msc-service-count.iml" filepath="$PROJECT_DIR$/../msc-service-count/msc-service-count.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-service-supervise/msc-service-supervise.iml" filepath="$PROJECT_DIR$/../msc-service-supervise/msc-service-supervise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-web-admin/msc-web-admin.iml" filepath="$PROJECT_DIR$/../msc-web-admin/msc-web-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-web-b2b/msc-web-b2b.iml" filepath="$PROJECT_DIR$/../msc-web-b2b/msc-web-b2b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-web-b2bsearch/msc-web-b2bsearch.iml" filepath="$PROJECT_DIR$/../msc-web-b2bsearch/msc-web-b2bsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-web-base/msc-web-base.iml" filepath="$PROJECT_DIR$/../msc-web-base/msc-web-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-web-count/msc-web-count.iml" filepath="$PROJECT_DIR$/../msc-web-count/msc-web-count.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-web-medic/msc-web-medic.iml" filepath="$PROJECT_DIR$/../msc-web-medic/msc-web-medic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-web-supervise/msc-web-supervise.iml" filepath="$PROJECT_DIR$/../msc-web-supervise/msc-web-supervise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../msc-webservice-b2b/msc-webservice-b2b.iml" filepath="$PROJECT_DIR$/../msc-webservice-b2b/msc-webservice-b2b.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.shyl:msc-web-common:war:0.0.1">
+    <CLASSES>
+      <root url="jar://D:/repo/com/shyl/msc-web-common/0.0.1/msc-web-common-0.0.1.war!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/repo/com/shyl/msc-web-common/0.0.1/msc-web-common-0.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/repo/com/shyl/msc-web-common/0.0.1/msc-web-common-0.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

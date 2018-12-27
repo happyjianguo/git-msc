@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd">
+
+	<defaultCache
+         maxElementsInMemory="10000"
+         eternal="false"
+         timeToIdleSeconds="120"
+         timeToLiveSeconds="120"
+         overflowToDisk="false"
+         maxElementsOnDisk="10000000"
+         diskPersistent="false"
+         diskExpiryThreadIntervalSeconds="120"
+         memoryStoreEvictionPolicy="LRU"
+     />
+	<cache
+			name="sessionCache"
+			maxElementsInMemory="1000"
+			timeToIdleSeconds="3600"
+			timeToLiveSeconds="86400"
+			eternal="false"
+			overflowToDisk="false" >
+
+	</cache>
+     <cache 
+     	name="attribute" 
+     	maxElementsInMemory="100" 
+     	timeToIdleSeconds="3600" 
+     	timeToLiveSeconds="86400" 
+     	eternal="false" 
+     	overflowToDisk="false" >
+     	
+     </cache>
+     <cache 
+     	name="attributeItem" 
+     	maxElementsInMemory="1000" 
+     	timeToIdleSeconds="3600" 
+     	timeToLiveSeconds="86400" 
+     	eternal="false" 
+     	overflowToDisk="false">
+     </cache>
+     <cache 
+     	name="company" 
+     	maxElementsInMemory="3000" 
+     	timeToIdleSeconds="3600" 
+     	timeToLiveSeconds="86400" 
+     	eternal="false" 
+     	overflowToDisk="false" >
+     </cache>
+     <cache 
+     	name="hospital" 
+     	maxElementsInMemory="1000" 
+     	timeToIdleSeconds="3600" 
+     	timeToLiveSeconds="86400" 
+     	eternal="false" 
+     	overflowToDisk="false" >
+     </cache>
+     <cache 
+     	name="warehouse" 
+     	maxElementsInMemory="1000" 
+     	timeToIdleSeconds="3600" 
+     	timeToLiveSeconds="86400" 
+     	eternal="false" 
+     	overflowToDisk="false" >
+     </cache>
+     <cache 
+     	name="drug" 
+     	maxElementsInMemory="3000" 
+     	timeToIdleSeconds="3600" 
+     	timeToLiveSeconds="86400" 
+     	eternal="false" 
+     	overflowToDisk="false" >
+     </cache>
+     <cache 
+     	name="product" 
+     	maxElementsInMemory="10000" 
+     	timeToIdleSeconds="3600" 
+     	timeToLiveSeconds="86400" 
+     	eternal="false" 
+     	overflowToDisk="false" >
+     </cache>
+     <cache 
+     	name="goods" 
+     	maxElementsInMemory="100000" 
+     	timeToIdleSeconds="3600" 
+     	timeToLiveSeconds="86400" 
+     	eternal="false" 
+     	overflowToDisk="false" >
+     </cache>
+      <cache 
+     	name="notice" 
+     	maxElementsInMemory="100" 
+     	timeToIdleSeconds="3600" 
+     	timeToLiveSeconds="86400" 
+     	eternal="false" 
+     	overflowToDisk="false" >
+     </cache>
+</ehcache>

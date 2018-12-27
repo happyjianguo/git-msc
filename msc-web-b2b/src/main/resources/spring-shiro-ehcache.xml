@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache updateCheck="false" name="shiroCache">
+	<!-- <diskStore path="/app/apache-tomcat-7.0.68/webapps/msc-web-b2b/cache" />	
+    <cacheManagerPeerProviderFactory
+		class="net.sf.ehcache.distribution.RMICacheManagerPeerProviderFactory"
+		properties="peerDiscovery=automatic, multicastGroupAddress=230.0.0.1,multicastGroupPort=4446, timeToLive=32"/>
+    <cacheManagerPeerListenerFactory
+		class="net.sf.ehcache.distribution.RMICacheManagerPeerListenerFactory"
+		properties="hostName=localhost,port=40012,socketTimeoutMillis=120000" /> -->
+		
+    <defaultCache
+            maxElementsInMemory="10000"
+            eternal="false"
+            timeToLiveSeconds="120"
+            overflowToDisk="false"/>
+
+    <cache name="shiro-activeSessionCache"  
+           maxElementsInMemory="10000"  
+           eternal="false" 
+           overflowToDisk="false"  
+           timeToLiveSeconds="120"  
+           diskPersistent="false"
+           diskExpiryThreadIntervalSeconds="10"
+           > 
+        <!-- <cacheEventListenerFactory  
+            class="net.sf.ehcache.distribution.RMICacheReplicatorFactory"  
+            properties="replicateAsynchronously=true, replicatePuts=true, replicateUpdates=true,replicateUpdatesViaCopy=false, replicateRemovals=true " />
+        <bootstrapCacheLoaderFactory  
+            class="net.sf.ehcache.distribution.RMIBootstrapCacheLoaderFactory" /> -->
+      </cache>
+</ehcache>

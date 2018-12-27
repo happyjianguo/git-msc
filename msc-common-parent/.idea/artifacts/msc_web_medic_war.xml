@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="msc-web-medic:war">
+    <output-path>$PROJECT_DIR$/../msc-web-medic/target</output-path>
+    <root id="archive" name="msc-web-medic.war">
+      <element id="artifact" artifact-name="msc-web-medic:war exploded" />
+    </root>
+  </artifact>
+</component>

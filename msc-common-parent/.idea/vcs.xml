@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../client" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-common-config" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-facade-b2b" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-facade-base" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-facade-client" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-facade-count" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-facade-supervise" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-service-b2b" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-service-base" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-service-client" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-service-count" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-service-supervise" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-web-admin" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-web-b2b" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-web-b2bsearch" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-web-base" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-web-count" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-web-medic" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-web-supervise" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../msc-webservice-b2b" vcs="svn" />
+  </component>
+</project>

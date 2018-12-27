@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd        
+    				    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd	
+    					http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+    
+    <!--<dubbo:application name="dubbo_consumer" logger="slf4j" />-->
+    
+	<!-- 使用multicast广播注册中心暴露发现服务地址 -->
+	<dubbo:registry protocol="zookeeper" address="${dubbo.registry.address}" file="${dubbo.registry.file.b2b}"/>
+	<!-- 所有的服务不检查依赖 -->
+	<dubbo:consumer check="false" />
+	<!-- 监控中心配置 --> 
+	<!-- <dubbo:monitor protocol="registry"/> -->
+	
+	<!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
+	<dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IFileManagementService" id="fileManagementService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IGroupService" id="groupService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IGroupUserService" id="groupUserService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IMsgItemService" id="msgItemService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IMsgService" id="msgService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IPermissionService" id="permissionService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IResourceService" id="resourceService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IUserService" id="userService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IMenuService" id="menuService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IOrganizationService" id="organizationService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IActionLogService" id="actionLogService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IAttributeItemService" id="attributeItemService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IAttributeService" id="attributeService" />
+    
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IDosageFormService" id="dosageFormService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IDrugService" id="drugService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IDrugTypeService" id="drugTypeService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IProductPriceService" id="productPriceService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IProductPriceDayService" id="productPriceDayService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IProductService" id="productService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IProductDetailService" id="productDetailService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IProductVendorService" id="productVendorService" /> 
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IProductRegisterService" id="productRegisterService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IProductRegisterDetailService" id="productRegisterDetailService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IGoodsService" id="goodsService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IGoodsPriceService" id="goodsPriceService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IGoodsHospitalService" id="goodsHospitalService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IGoodsHospitalSourceService" id="goodsHospitalSourceService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IDirectoryService" id="directoryService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IGpoProductListService" id="gpoProductListService" />
+    
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IAddressService" id="addressService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.ICompanyService" id="companyService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IBlacklistService" id="blacklistService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IHospitalService" id="hospitalService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IRegionCodeService" id="regionCodeService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IRegulationOrgService" id="regulationOrgService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IWarehouseService" id="warehouseService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.INoticeService" id="noticeService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IPatientService" id="patientService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IVendorSenderService" id="vendorSenderService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IProjectService" id="projectService" />
+    <dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IProjectDetailService" id="projectDetailService" />
+    
+	<dubbo:reference loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.client.service.ISocketService" id="socketService" />
+</beans>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="msc-web-b2bsearch:war">
+    <output-path>$PROJECT_DIR$/../msc-web-b2bsearch/target</output-path>
+    <root id="archive" name="msc-web-b2bsearch.war">
+      <element id="artifact" artifact-name="msc-web-b2bsearch:war exploded" />
+    </root>
+  </artifact>
+</component>

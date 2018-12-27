@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:tx="http://www.springframework.org/schema/tx" xmlns:jee="http://www.springframework.org/schema/jee"
+    xmlns:jaxws="http://cxf.apache.org/jaxws"
+    xsi:schemaLocation="
+            http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+            http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+            http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-2.5.xsd
+            http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+            http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
+    <import resource="classpath*:META-INF/cxf/cxf.xml" />
+    <import resource="classpath*:META-INF/cxf/cxf-servlet.xml" />
+   	<!-- 付款单 -->
+	<jaxws:endpoint id="paymentWebService" implementor="com.shyl.msc.webService.impl.PaymentWebService" address="/payment" />
+	<!-- 结算单  -->
+	<jaxws:endpoint id="settlementWebService" implementor="com.shyl.msc.webService.impl.SettlementWebService" address="/settlement" />
+	<!-- 配送单 -->
+    <jaxws:endpoint id="deliveryOrderWebService" implementor="com.shyl.msc.webService.impl.DeliveryOrderWebService" address="/deliveryOrder" />
+    <!-- 入库单 -->
+    <jaxws:endpoint id="inOutBoundWebService" implementor="com.shyl.msc.webService.impl.InOutBoundWebService" address="/inOutBound" />
+	<!-- 发票 -->
+	<jaxws:endpoint id="invoiceWebService" implementor="com.shyl.msc.webService.impl.InvoiceWebService" address="/invoice" />
+	<!-- 交易发票 -->
+	<jaxws:endpoint id="tradeInvoiceWebService" implementor="com.shyl.msc.webService.impl.TradeInvoiceWebService" address="/tradeInvoice" />
+	<!-- 附件上传 -->
+	<jaxws:endpoint id="attachmentUploadWebService" implementor="com.shyl.msc.webService.impl.AttachmentUploadWebService" address="/attachmentUpload" />
+	<!-- 药品信息 -->
+	<jaxws:endpoint id="productWebService" implementor="com.shyl.msc.webService.impl.ProductWebService" address="/product" />
+	<!-- 配送点 -->
+	<jaxws:endpoint id="warehouseWebService" implementor="com.shyl.msc.webService.impl.WarehouseWebService" address="/warehouse" />
+	<!-- 药品价格 -->
+	<jaxws:endpoint id="productPriceWebService" implementor="com.shyl.msc.webService.impl.ProductPriceWebService" address="/productPrice" />
+	<!-- 药品价格 -->
+	<jaxws:endpoint id="goodsPriceWebService" implementor="com.shyl.msc.webService.impl.GoodsPriceWebService" address="/goodsPrice" />
+	<!-- 订单计划 -->
+	<jaxws:endpoint id="purchaseOrderPlanWebService" implementor="com.shyl.msc.webService.impl.PurchaseOrderPlanWebService" address="/purchaseOrderPlan" />
+	<!-- 订单 -->
+	<jaxws:endpoint id="purchaseOrderWebService" implementor="com.shyl.msc.webService.impl.PurchaseOrderWebService" address="/purchaseOrder" />
+	<!-- 订单退货申请 -->
+	<jaxws:endpoint id="purchaseClosedRequestWebService" implementor="com.shyl.msc.webService.impl.PurchaseClosedRequestWebService" address="/purchaseClosedRequest" />
+	<!-- 退货单 -->
+	<jaxws:endpoint id="returnsOrderWebService" implementor="com.shyl.msc.webService.impl.ReturnsOrderWebService" address="/returnsOrder" />
+	<!-- 退货单申请 -->
+	<jaxws:endpoint id="returnsRequestWebService" implementor="com.shyl.msc.webService.impl.ReturnsRequestWebService" address="/returnsRequest" />
+	<!-- 医院库存 -->
+	<jaxws:endpoint id="hospitalStockWebService" implementor="com.shyl.msc.webService.impl.HospitalStockWebService" address="/hospitalStock" />
+	<!-- 供应商库存 -->
+	<jaxws:endpoint id="vendorStockWebService" implementor="com.shyl.msc.webService.impl.VendorStockWebService" address="/vendorStock" />
+	<!-- 药品映射关系  -->
+	<jaxws:endpoint id="goodsHospitalWebService" implementor="com.shyl.msc.webService.impl.GoodsHospitalWebService" address="/goodsHospital" />
+	<!-- 报量品种  -->
+	<jaxws:endpoint id="projectDetailWebService" implementor="com.shyl.msc.webService.impl.ProjectDetailWebService" address="/projectDetail" />
+	<!-- 供应商药品供应关系  -->
+	<jaxws:endpoint id="productDetailWebService" implementor="com.shyl.msc.webService.impl.ProductDetailWebService" address="/productDetail" />
+	<!-- 医院报量  -->
+	<jaxws:endpoint id="hospitalPlanWebService" implementor="com.shyl.msc.webService.impl.HospitalPlanWebService" address="/hospitalPlan" />
+	<!-- 三方协议  -->
+	<jaxws:endpoint id="contractWebService" implementor="com.shyl.msc.webService.impl.ContractWebService" address="/contract" />
+	<!-- 合同终止申请 -->
+	<jaxws:endpoint id="contractClosedRequestWebService" implementor="com.shyl.msc.webService.impl.ContractClosedRequestWebService" address="/contractClosedRequest" />
+	<!-- sgl签章 -->
+	<jaxws:endpoint id="sglSignedWebService" implementor="com.shyl.msc.webService.impl.SglSignedWebService" address="/sglSigned" />
+	<!-- 订单状态 -->
+	<jaxws:endpoint id="orderMsgWebService" implementor="com.shyl.msc.webService.impl.OrderMsgWebService" address="/orderMsg" />
+	<!-- 企业信息 -->
+	<jaxws:endpoint id="companyWebService" implementor="com.shyl.msc.webService.impl.CompanyWebService" address="/company" />
+    <!-- 医院信息 -->
+    <jaxws:endpoint id="hospitalWebService" implementor="com.shyl.msc.webService.impl.HospitalWebService" address="/hospital" />
+</beans>

@@ -1,0 +1,133 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.shyl</groupId>
+		<artifactId>msc-common-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../msc-common-parent</relativePath>
+	</parent>
+
+	<!-- <groupId>com.shyl</groupId> -->
+	<artifactId>msc-service-client</artifactId>
+	<packaging>jar</packaging>
+	<version>${msc-service-client.version}</version>
+
+	<name>msc-service-client</name>
+	<url>http://maven.apache.org</url>
+
+	<dependencies>
+		<!-- basic -->
+		<dependency>
+			<groupId>com.shyl</groupId>
+			<artifactId>msc-common-config</artifactId>
+			<version>${msc-common-config.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.shyl</groupId>
+			<artifactId>msc-facade-base</artifactId>
+			<version>${msc-facade-base.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.shyl</groupId>
+			<artifactId>msc-facade-client</artifactId>
+			<version>${msc-facade-client.version}</version>
+		</dependency>
+		
+		<dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+        </dependency>
+        <dependency>  
+            <groupId>org.apache.logging.log4j</groupId>  
+            <artifactId>log4j-1.2-api</artifactId>  
+        </dependency>
+        <dependency>
+          <groupId>org.apache.logging.log4j</groupId>
+          <artifactId>log4j-slf4j-impl</artifactId>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.logging.log4j</groupId>
+          <artifactId>log4j-api</artifactId>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.logging.log4j</groupId>
+          <artifactId>log4j-core</artifactId>
+        </dependency>  
+         <dependency>  
+             <groupId>com.lmax</groupId>  
+             <artifactId>disruptor</artifactId>  
+         </dependency>
+
+		<!-- dubbo 需要的jar start -->		
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>dubbo</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.mina</groupId>
+		    <artifactId>mina-core</artifactId>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>msc-service-client</finalName>
+
+	 	<resources>
+			<resource>
+				<targetPath>${project.build.directory}/classes</targetPath>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/*.xml</include>
+					<include>**/*.properties</include>
+				</includes>
+			</resource>
+			<!-- 结合com.alibaba.dubbo.container.Main -->
+			<resource>
+				<targetPath>${project.build.directory}/classes/META-INF/spring</targetPath>
+				<directory>src/main/resources/spring</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>applicationContext.xml</include>
+				</includes>
+			</resource>
+		</resources>
+
+		<plugins>
+			<!-- 打包jar文件时，配置manifest文件，加入lib包的jar依赖 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<classesDirectory>target/classes/</classesDirectory>
+					<archive>
+						<manifest>
+							<mainClass>com.alibaba.dubbo.container.Main</mainClass>
+							打包时 MANIFEST.MF文件不记录的时间戳版本
+							<useUniqueVersions>false</useUniqueVersions>
+							<addClasspath>true</addClasspath>
+							<classpathPrefix>lib/</classpathPrefix>
+						</manifest>
+						<manifestEntries>
+							<Class-Path>.</Class-Path>
+						</manifestEntries>
+					</archive>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+			</plugin>
+			<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+            </plugin>
+		</plugins>
+	</build>
+</project>

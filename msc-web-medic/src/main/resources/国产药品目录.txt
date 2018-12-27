@@ -1,0 +1,142 @@
+<table width=100% border=0 cellspacing=0 cellpadding=0>
+<tr>
+	<td height=27 bgcolor=#659ACE>
+        <table width=100% border=0 align=center cellpadding=0 cellspacing=0>
+        <tr>
+			<td width=20>&nbsp;</td>
+
+            <td><div align=left class=zs2>"国产药品" 的内容列表 ， 共有 165375 条记录</div></td></tr>
+
+        </table></td></tr>
+</table>
+<table width=100% border=0 cellspacing=0 cellpadding=0>
+    
+<tr>
+    <td height=30><p align=left>
+    <a href=javascript:commitForECMA(callbackC,'content.jsp?tableId=25&tableName=TABLE25&tableView=国产药品&Id=29813',null)>1.龟龙中风丸 (86901343001160 国药准字Z20020147 沈阳红药集团股份有限公司)</p></td></tr>
+<tr>
+	<td height=1 background=images/data01_04.gif></td></tr>
+     
+<tr>
+    <td height=30><p align=left>
+    <a href=javascript:commitForECMA(callbackC,'content.jsp?tableId=25&tableName=TABLE25&tableView=国产药品&Id=39140',null)>2.龟龄集 (86902884000629 国药准字Z14020687 山??广誉远国药有限公司)</p></td></tr>
+<tr>
+	<td height=1 background=images/data01_04.gif></td></tr>
+     
+<tr>
+    <td height=30><p align=left>
+    <a href=javascript:commitForECMA(callbackC,'content.jsp?tableId=25&tableName=TABLE25&tableView=国产药品&Id=13957',null)>3.龟黄补酒 (86901890000654；86901890000661；86901890000678 国药准字Z20026072 远大医药黄石飞云制药有限公司)</p></td></tr>
+<tr>
+	<td height=1 background=images/data01_04.gif></td></tr>
+     
+<tr>
+    <td height=30><p align=left>
+    <a href=javascript:commitForECMA(callbackC,'content.jsp?tableId=25&tableName=TABLE25&tableView=国产药品&Id=190435',null)>4.龟鹿补肾胶囊 (86905098000638 国药准字Z20123109 广西华天宝药业有限公司)</p></td></tr>
+<tr>
+	<td height=1 background=images/data01_04.gif></td></tr>
+     
+<tr>
+    <td height=30><p align=left>
+    <a href=javascript:commitForECMA(callbackC,'content.jsp?tableId=25&tableName=TABLE25&tableView=国产药品&Id=52963',null)>5.龟鹿补肾片 (86900427000075 国药准字Z20080217 广东心宝药业科技有限公司)</p></td></tr>
+<tr>
+	<td height=1 background=images/data01_04.gif></td></tr>
+     
+<tr>
+    <td height=30><p align=left>
+    <a href=javascript:commitForECMA(callbackC,'content.jsp?tableId=25&tableName=TABLE25&tableView=国产药品&Id=56190',null)>6.龟鹿补肾片 (86903249000087 国药准字Z20090420 郑州福瑞堂制药有限公司)</p></td></tr>
+<tr>
+	<td height=1 background=images/data01_04.gif></td></tr>
+     
+<tr>
+    <td height=30><p align=left>
+    <a href=javascript:commitForECMA(callbackC,'content.jsp?tableId=25&tableName=TABLE25&tableView=国产药品&Id=4739',null)>7.龟鹿补肾口服液 (86900291000263 国药准字Z44023432 广东华天宝药业集团有限公司)</p></td></tr>
+<tr>
+	<td height=1 background=images/data01_04.gif></td></tr>
+     
+<tr>
+    <td height=30><p align=left>
+    <a href=javascript:commitForECMA(callbackC,'content.jsp?tableId=25&tableName=TABLE25&tableView=国产药品&Id=4740',null)>8.龟鹿补肾丸 (86900291000270 国药准字Z44022778 广东华天宝药业集团有限公司)</p></td></tr>
+<tr>
+	<td height=1 background=images/data01_04.gif></td></tr>
+     
+<tr>
+    <td height=30><p align=left>
+    <a href=javascript:commitForECMA(callbackC,'content.jsp?tableId=25&tableName=TABLE25&tableView=国产药品&Id=4741',null)>9.龟鹿补肾丸 (86900291000294 国药准字Z44022779 广东华天宝药业集团有限公司)</p></td></tr>
+<tr>
+	<td height=1 background=images/data01_04.gif></td></tr>
+     
+<tr>
+    <td height=30><p align=left>
+    <a href=javascript:commitForECMA(callbackC,'content.jsp?tableId=25&tableName=TABLE25&tableView=国产药品&Id=47749',null)>10.龟鹿补肾丸 (86900415000308 国药准字Z44020148 广州市花城制药厂)</p></td></tr>
+<tr>
+	<td height=1 background=images/data01_04.gif></td></tr>
+     
+<tr>
+    <td height=30><p align=left>
+    <a href=javascript:commitForECMA(callbackC,'content.jsp?tableId=25&tableName=TABLE25&tableView=国产药品&Id=131933',null)>11.龟鹿益肾胶囊 (86905004000028 国药准字B20020196 湖南康寿制药有限公司)</p></td></tr>
+<tr>
+	<td height=1 background=images/data01_04.gif></td></tr>
+     
+<tr>
+    <td height=30><p align=left>
+    <a href=javascript:commitForECMA(callbackC,'content.jsp?tableId=25&tableName=TABLE25&tableView=国产药品&Id=65413',null)>12.龟鹿滋肾丸 (86900008000272 国药准字Z11020387 北京宝树堂科技药业有限公司)</p></td></tr>
+<tr>
+	<td height=1 background=images/data01_04.gif></td></tr>
+     
+<tr>
+    <td height=30><p align=left>
+    <a href=javascript:commitForECMA(callbackC,'content.jsp?tableId=25&tableName=TABLE25&tableView=国产药品&Id=11881',null)>13.龟鹿滋肾丸 (86905156002598 国药准字Z45020433 广西梧州制药(集团)股份有限公司)</p></td></tr>
+<tr>
+	<td height=1 background=images/data01_04.gif></td></tr>
+     
+<tr>
+    <td height=30><p align=left>
+    <a href=javascript:commitForECMA(callbackC,'content.jsp?tableId=25&tableName=TABLE25&tableView=国产药品&Id=11932',null)>14.龟??滋肾丸 (86905156002604 国药准字Z45020432 广西梧州制药(集团)股份有限公司)</p></td></tr>
+<tr>
+	<td height=1 background=images/data01_04.gif></td></tr>
+     
+<tr>
+    <td height=30><p align=left>
+    <a href=javascript:commitForECMA(callbackC,'content.jsp?tableId=25&tableName=TABLE25&tableView=国产药品&Id=10316',null)>15.龟鹿滋肾丸 (86900256000413 国药准字Z44023076 国药集团冯了性(佛山)药业有限公司)</p></td></tr>
+<tr>
+	<td height=1 background=images/data01_04.gif></td></tr>
+     
+</table>
+<table width=100% border=0 cellspacing=0 cellpadding=0>
+<tr>
+    <td>&nbsp;</td></tr>
+</table>
+<table width=700 border=0 cellspacing=0 cellpadding=0>
+<tr>
+    <td width=200 align=center>第 1 页 共11025页 共165375条</td>
+    <td width=30></td>
+
+      <td width=80><img src=images/dataanniu_03.gif width=57 height=17></td>
+      <td width=80><img src=images/dataanniu_05.gif width=57 height=17></td>
+
+      <td width=80><img src=images/dataanniu_07.gif width=57 height=17 onclick=javascript:devPage(2) style=cursor:pointer></td>
+      <td width=80><img src=images/dataanniu_09.gif width=57 height=17 onclick=javascript:devPage(11025) style=cursor:pointer></td>
+
+    
+    
+    <form action=javascript:goPage(11025)>
+    <td width=80>跳转
+        <input name=goInt id=goInt type=text value=1 size=4></td>
+    <td><input src=images/dataanniu_11.gif type=image width=37 height=17 onclick="javascript:goPage(11025)"></td>
+    </form></tr>
+</table>
+<table width=100% border=0 cellspacing=0 cellpadding=0>
+<tr>
+    <td>&nbsp;</td></tr>
+</table>
+<form method="post" id="pageForm" name="pageForm" action="search.jsp">
+<input type="hidden" name="tableId"          value="25">
+<input type="hidden" name="bcId"             value="">
+<input type="hidden" name="curstart"         value="">
+<input type="hidden" name="tableName"        value="TABLE25">
+<input type="hidden" name="viewtitleName"    value="COLUMN167">
+<input type="hidden" name="viewsubTitleName" value="COLUMN821,COLUMN166,COLUMN170">
+<input type="hidden" name="keyword"          value="">
+<input type="hidden" name="tableView"        value="国产药品">
+
+</form>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="msc-web-admin-bak:war">
+    <output-path>$PROJECT_DIR$/../msc-web-admin-bak/target</output-path>
+    <root id="archive" name="msc-web-admin-bak.war">
+      <element id="artifact" artifact-name="msc-web-admin-bak:war exploded" />
+    </root>
+  </artifact>
+</component>

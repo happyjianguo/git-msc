@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<db>
+	<projectCode name="SZ" value="SZ"/>
+	<projectCode name="SZ_SUP" value="SZ_SUP"/>
+	<projectCode name="sup_455755442" value="sup_455755442"/>
+	<projectCode name="sup_455768235" value="sup_455768235"/>
+	<projectCode name="sup_TT20161102" value="sup_TT20161102"/>
+	<projectCode name="sup_455850212" value="sup_455850212"/>
+	<projectCode name="sup_455767793" value="sup_455767793"/>
+	<!-- 主数据源 -->
+	<dataSource type="JDBC" name="SZ" jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@localhost:1521/orcl" jdbc_username="medcinetest" jdbc_password="oracle" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="SZ_SUP" jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@localhost:1521/orcl" jdbc_username="yongyao" jdbc_password="oracle" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<!-- 深圳25家医院 -->
+	<dataSource type="JDBC" name="sup_455755442" jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@localhost:1521/orcl" jdbc_username="sup_rmyy" jdbc_password="oracle" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_455768235" jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@localhost:1521/orcl" jdbc_username="sup_baqzyy" jdbc_password="oracle" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_TT20161102" jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@localhost:1521/orcl" jdbc_username="sup_cyyy" jdbc_password="oracle" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_455850212" jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@localhost:1521/orcl" jdbc_username="sup_ftqzyy" jdbc_password="oracle" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_455767793" jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@localhost:1521/orcl" jdbc_username="sup_ftqfybjy" jdbc_password="oracle" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+</db>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd">
+ 	
+  	<!-- 消费方应用名，用于计算依赖关系，不是匹配条件，不要与提供方一样 -->
+	<dubbo:application name="msc-provider" logger="slf4j" />
+ 	<!-- 使用zookeeper注册中心暴露服务地址 -->
+	<dubbo:registry protocol="zookeeper" address="${dubbo.registry.address}" file="${dubbo.registry.file.b2b}"/>
+	
+    <!-- 用dubbo协议在20880端口暴露服务 -->
+    <dubbo:protocol name="dubbo" port="${dubbo.protocol.b2b.port}" accepts="500" iothreads="500" threads="500"  />
+ 	<!-- 监控中心配置 --> 
+	<!-- <dubbo:monitor protocol="registry"/> -->
+
+    <!--调整dubbo  请求及响应数据包大小限制，单位：字节-->
+    <dubbo:provider id="payload" payload="11557050"/>
+	
+    <!-- 声明需要暴露的服务接口 -->
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.ISnService" ref="snService" timeout="${dubbo.timeout}"/> 
+	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.ICartService" ref="cartService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.ICartContractService" ref="cartContractService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IDatagramService" ref="datagramService" timeout="${dubbo.timeout}"/>
+   	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IDeliveryOrderDetailService" ref="deliveryOrderDetailService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IDeliveryOrderService" ref="deliveryOrderService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IInOutBoundDetailService" ref="inOutBoundDetailService" timeout="${dubbo.timeout}" />
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IInOutBoundService" ref="inOutBoundService" timeout="${dubbo.timeout}" />
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IPurchaseOrderPlanDetailService" ref="purchaseOrderPlanDetailService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IPurchaseOrderPlanService" ref="purchaseOrderPlanService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IPurchaseOrderDetailService" ref="purchaseOrderDetailService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IPurchaseOrderService" ref="purchaseOrderService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IPurchaseClosedRequestService" ref="purchaseClosedRequestService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IPurchaseClosedRequestDetailService" ref="purchaseClosedRequestDetailService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IReturnsOrderDetailService" ref="returnsOrderDetailService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IReturnsOrderService" ref="returnsOrderService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IReturnsRequestDetailService" ref="returnsRequestDetailService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IReturnsRequestService" ref="returnsRequestService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IPurchasePlanDetailService" ref="purchasePlanDetailService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IPurchasePlanService" ref="purchasePlanService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.order.service.IOrderMsgService" ref="orderMsgService" timeout="${dubbo.timeout}"/>
+    
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.stl.service.IAccountOrderService" ref="accountOrderService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.stl.service.IAccountProductService" ref="accountProductService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.stl.service.IInvoiceDetailService" ref="invoiceDetailService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.stl.service.IInvoiceService" ref="invoiceService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.stl.service.ISettlementService" ref="settlementService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.stl.service.ISettlementDetailService" ref="settlementDetailService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.stl.service.IPaymentService" ref="paymentService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.stl.service.ITradeInvoiceService" ref="tradeInvoiceService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.stl.service.ITradeInvoiceDetailService" ref="tradeInvoiceDetailService" timeout="${dubbo.timeout}"/>
+    
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.stock.service.IHisStockDayService" ref="hisStockDayService" timeout="${dubbo.timeout}"/>
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.stock.service.IVendorStockDayService" ref="vendorStockDayService" timeout="${dubbo.timeout}"/>
+ 	
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.plan.service.IContractService" ref="contractService" timeout="${dubbo.timeout}"/>
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.plan.service.IContractDetailService" ref="contractDetailService" timeout="${dubbo.timeout}"/>
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.plan.service.IContractClosedRequestService" ref="contractClosedRequestService" timeout="${dubbo.timeout}"/>
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.plan.service.IHospitalPlanDetailService" ref="hospitalPlanDetailService" timeout="${dubbo.timeout}"/>
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.plan.service.IHospitalPlanService" ref="hospitalPlanService" timeout="${dubbo.timeout}"/>
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.plan.service.IDirectoryVendorService" ref="directoryVendorService" timeout="${dubbo.timeout}"/>
+ 
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.judge.service.IServiceJudgeService" ref="serviceJudgeService" timeout="${dubbo.timeout}"/>
+ 
+  	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.hospital.service.ILackProductService" ref="lackProductService" timeout="${dubbo.timeout}"/>
+   	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.hospital.service.ISupplyProductService" ref="supplyProductService" timeout="${dubbo.timeout}"/>
+   	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.b2b.hospital.service.IPurchaseRecordService" ref="purchaseRecordService" timeout="${dubbo.timeout}"/>
+ 
+ </beans>

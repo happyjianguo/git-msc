@@ -1,0 +1,1268 @@
+.icon-blank{
+	background:url('icons/blank.gif') no-repeat center center;
+}
+.icon-add{
+	background:url('icons2/add.png') no-repeat center center;
+}
+.icon-edit{
+	background:url('icons/pencil.png') no-repeat center center;
+}
+.icon-clear{
+	background:url('icons/clear.png') no-repeat center center;
+}
+.icon-remove{
+	background:url('icons/edit_remove.png') no-repeat center center;
+}
+.icon-save{
+	background:url('icons/filesave.png') no-repeat center center;
+}
+.icon-cut{
+	background:url('icons/cut.png') no-repeat center center;
+}
+.icon-ok{
+	background:url('icons/ok.png') no-repeat center center;
+}
+.icon-no{
+	background:url('icons2/delete.png') no-repeat center center;
+}
+.icon-cancel{
+	background:url('icons/cancel.png') no-repeat center center;
+}
+.icon-reload{
+	background:url('icons/reload.png') no-repeat center center;
+}
+.icon-reload8{
+	background:url('icons/reload8.png') no-repeat center center;
+}
+.icon-reload12{
+	background:url('icons/reload12.png') no-repeat center center;
+}
+.icon-search{
+	background:url('icons/search.png') no-repeat center center;
+}
+.icon-print{
+	background:url('icons/print.png') no-repeat center center;
+}
+.icon-help{
+	background:url('icons/help.png') no-repeat center center;
+}
+.icon-undo{
+	background:url('icons/undo.png') no-repeat center center;
+}
+.icon-redo{
+	background:url('icons/redo.png') no-repeat center center;
+}
+.icon-back{
+	background:url('icons/back.png') no-repeat center center;
+}
+.icon-sum{
+	background:url('icons/sum.png') no-repeat center center;
+}
+.icon-tip{
+	background:url('icons/tip.png') no-repeat center center;
+}
+.icon-filter{
+	background:url('icons/filter.png') no-repeat center center;
+}
+.icon-man{
+	background:url('icons/man.png') no-repeat center center;
+}
+.icon-lock{
+	background:url('icons/lock.png') no-repeat center center;
+}
+
+
+.icon-mini-add{
+	background:url('icons/mini_add.png') no-repeat center center;
+}
+.icon-mini-edit{
+	background:url('icons/mini_edit.png') no-repeat center center;
+}
+.icon-mini-refresh{
+	background:url('icons/mini_refresh.png') no-repeat center center;
+}
+.icon-refresh{
+	background:url('icons/refresh.png') no-repeat center center;
+}
+
+.icon-large-picture{
+	background:url('icons/large_picture.png') no-repeat center center;
+}
+.icon-large-clipart{
+	background:url('icons/large_clipart.png') no-repeat center center;
+}
+.icon-large-shapes{
+	background:url('icons/large_shapes.png') no-repeat center center;
+}
+.icon-large-smartart{
+	background:url('icons/large_smartart.png') no-repeat center center;
+}
+.icon-large-chart{
+	background:url('icons/large_chart.png') no-repeat center center;
+}
+
+/* begin of customized icon class */
+.icon-csv{
+	background:url('icons/csv_text.png') no-repeat center center;
+}
+.icon-items{
+	background:url('icons/more_items.png') no-repeat center center;
+}
+.icon-items{
+	background:url('icons/more_items.png') no-repeat center center;
+}
+.icon-disable{
+	background:url('icons/disable.png') no-repeat center center;
+}
+.icon-link_add{
+	background:url('icons/link_add.png') no-repeat center center;
+}
+.icon-link_edit{
+	background:url('icons/link_edit.png') no-repeat center center;
+}
+.icon-link_delete{
+	background:url('icons/link_delete.png') no-repeat center center;
+}
+.icon-preview{
+	background:url('icons/preview.png') no-repeat center center;
+}
+.icon-email{
+	background:url('icons/email.png') no-repeat center center;
+}
+.icon-big_arrow_l{
+	background:url('icons/big_arrow_l.png') no-repeat center center;
+}
+.icon-big_arrow_r{
+	background:url('icons/big_arrow_r.png') no-repeat center center;
+}
+.icon-iso{
+	background:url('icons/iso.png') no-repeat center center;
+}
+.icon-arrow_left{
+	background:url('icons/arrow_left.png') no-repeat center center;
+}
+.icon-arrow_right{
+	background:url('icons/arrow_right.png') no-repeat center center;
+}
+.icon-arrow_up{
+	background:url('icons/arrow_up.png') no-repeat center center;
+}
+.icon-arrow_down{
+	background:url('icons/arrow_down.png') no-repeat center center;
+}
+.icon-table_go{
+	background:url('icons/table_go.png') no-repeat center center;
+}
+.icon-mail_open{
+	background:url('icons/email_open.png') no-repeat center center;
+}
+.icon-money{
+	background:url('icons/money.png') no-repeat center center;
+}
+.icon-printer{
+	background:url('icons/printer.png') no-repeat center center;
+}
+.icon-group{
+	background:url('icons/group.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-user{
+	background:url('icons/user.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-key{
+	background:url('icons/key.png') no-repeat center center;
+}
+.icon-analysis{
+	background:url('icons/analysis.png') no-repeat center center;
+}
+.icon-realtime{
+	background:url('icons/realtime.png') no-repeat center center;
+}
+.icon-input{
+	background:url('icons/input.png') no-repeat center center;
+}
+.icon-setup{
+	background:url('icons/setup.png') no-repeat center center;
+}
+.icon-login{
+	background:url('icons/login.png') no-repeat center center;
+}
+.icon-monitor{
+	background:url('icons/glyphicons_086_display.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-stats{
+	background:url('icons/glyphicons_040_stats.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-quality{
+	background:url('icons/glyphicons_041_charts.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-setting{
+	background:url('icons/glyphicons_136_cogwheel.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-warn{
+	background:url('icons/glyphicons_078_warning_sign.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-keys{
+	background:url('icons/glyphicons_044_keys.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-start{
+	background:url('icons/start.png') no-repeat center center;
+    
+}
+.icon-stop{
+	background:url('icons/stop.png') no-repeat center center;
+}
+.icon-pause{
+	background:url('icons/pause.png') no-repeat center center;
+}
+.icon-config{
+	background:url('icons/config.png') no-repeat center center;
+}
+.icon-network{
+	background:url('icons/glyphicons_371_global.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-user_add{
+	background:url('icons/user_add.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-user_edit{
+	background:url('icons/user_edit.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-group_edit{
+	background:url('icons/group_edit.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-group_add{
+	background:url('icons/group_add.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-group_delete{
+	background:url('icons/group_delete.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-warning{
+	background:url('icons/warning.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-camera{
+	background:url('icons/camera.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-group_key{
+	background:url('icons/group_key.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-networking{
+	background:url('icons/networking.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-settings{
+	background:url('icons/settings.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-statistics{
+	background:url('icons/statistics.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-chart_curve{
+	background:url('icons/chart_curve.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-light{
+	background:url('icons/light.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-xls{
+	background:url('icons/xls.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-arrow_switch{
+	background:url('icons/arrow_switch.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-arrow_inout{
+	background:url('icons/arrow_inout.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-box_down{
+	background:url('icons/box_down.png') no-repeat center center;
+    background-size: 32px 32px;
+}
+.icon-cog{
+	background:url('icons/cog.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-box_open{
+	background:url('icons/box_open.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-book{
+	background:url('icons/book.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-books{
+	background:url('icons/books.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-process{
+	background:url('icons/process.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-msg{
+	background:url('icons/11-7.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-approve{
+	background:url('icons/approve.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-store{
+	background:url('icons/store.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-substitute{
+	background:url('icons/substitute.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-order{
+	background:url('icons/order.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-business{
+	background:url('icons/business.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-Auth_Mgmt {
+	background:url('icons/Auth_Mgmt.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-Setting_Mgmt {
+	background:url('icons/Setting_Mgmt.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-company {
+	background:url('icons/company.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-material_codes {
+	background:url('icons/material_codes.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-receipt_codes {
+	background:url('icons/receipt_codes.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-stor_setup{
+	background:url('icons/stor_setup.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-storage_import{
+	background:url('icons/storage_import.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-Eng_Mgmt{
+	background:url('icons/Eng_Mgmt.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-part_maintain{
+	background:url('icons/part_maintain.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-bom_maintain{
+	background:url('icons/bom_maintain.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-bom_import{
+	background:url('icons/bom_import.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-eng_trial{
+	background:url('icons/eng_trial.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-Sales_Mgmt{
+	background:url('icons/Sales_Mgmt.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-order_mgmt{
+	background:url('icons/order_mgmt.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-Purchase_Mgmt{
+	background:url('icons/Purchase_Mgmt.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-purchase{
+	background:url('icons/purchase.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-tool_purchase{
+	background:url('icons/tool_purchase.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-return_vender{
+	background:url('icons/return_vender.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-Account_Mgmt{
+	background:url('icons/Account_Mgmt.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-production_account{
+	background:url('icons/production_account.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-history_account{
+	background:url('icons/history_account.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-work_sheet{
+	background:url('icons/work_sheet.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-storage_stat{
+	background:url('icons/storage_stat.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-force_close{
+	background:url('icons/force_close.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-part_price{
+	background:url('icons/part_price.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-adjust_account{
+	background:url('icons/adjust_account.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-Mfg_Mgmt{
+	background:url('icons/Mfg_Mgmt.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-production_control{
+	background:url('icons/production_control.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-tools{
+	background:url('icons/tools.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-chart_bar{
+	background:url('icons/chart_bar.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-PMC_Mgmt{
+	background:url('icons/PMC_Mgmt.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-procurement_request{
+	background:url('icons/procurement_request.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-mfg_readycheck{
+	background:url('icons/mfg_readycheck.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-planning{
+	background:url('icons/planning.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-mfg_rework{
+	background:url('icons/mfg_rework.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-mfg_teardown{
+	background:url('icons/mfg_teardown.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-patch_approve{
+	background:url('icons/patch_approve.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-out_production{
+	background:url('icons/out_production.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-mfgord_history{
+	background:url('icons/mfgord_history.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-Stor_Mgmt{
+	background:url('icons/Stor_Mgmt.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-recv_material{
+	background:url('icons/recv_material.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-get_material{
+	background:url('icons/get_material.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-return_material{
+	background:url('icons/return_material.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-ship_goods{
+	background:url('icons/ship_goods.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-return_goods{
+	background:url('icons/return_goods.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-scrap{
+	background:url('icons/scrap.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-change_stor{
+	background:url('icons/change_stor.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-ship_bads{
+	background:url('icons/ship_bads.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-engtrial_getmaterial{
+	background:url('icons/engtrial_getmaterial.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-root {
+	background:url('icons/SIG.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-backup {
+	background:url('icons/folder_database.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-prod_ckin {
+	background:url('icons/prod_ckin.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-prod_ckout {
+	background:url('icons/prod_ckout.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-prod_patch {
+	background:url('icons/prod_patch.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-prod_continue {
+	background:url('icons/prod_continue.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-prod_return {
+	background:url('icons/prod_return.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-prod_scrap {
+	background:url('icons/prod_scrap.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-edit_remove {
+	background:url('icons/edit_remove.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-traffic_lights {
+	background:url('icons/traffic_lights.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-page_copy {
+	background:url('icons/page_copy.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-recv_material_patch {
+	background:url('icons/recv_material_patch.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-video {
+	background:url('icons/v1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-product_yield {
+	background:url('icons/product_yield.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-operation_yield {
+	background:url('icons/operation_yield.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-po_import {
+	background:url('icons/po_import.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-defect_define {
+	background:url('icons/defect_define.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-barcode_2d {
+	background:url('icons/barcode_2d.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-1-0 {
+	background:url('icons/1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-1-1 {
+	background:url('icons/1-1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-1-2 {
+	background:url('icons/1-2.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-1-3 {
+	background:url('icons/1-3.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-1-4 {
+	background:url('icons/1-4.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-1-5 {
+	background:url('icons/1-5.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-1-6 {
+	background:url('icons/1-6.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-2-0 {
+	background:url('icons/2.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-2-1 {
+	background:url('icons/2-1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-2-2 {
+	background:url('icons/2-2.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-2-3 {
+	background:url('icons/2-3.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-2-4 {
+	background:url('icons/2-4.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-2-5 {
+	background:url('icons/2-5.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-2-6 {
+	background:url('icons/2-6.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-2-7 {
+	background:url('icons/2-7.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-3-0 {
+	background:url('icons/3.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-3-1 {
+	background:url('icons/3-1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-3-2 {
+	background:url('icons/3-2.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-3-3 {
+	background:url('icons/3-3.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-3-4 {
+	background:url('icons/3-4.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-3-5 {
+	background:url('icons/3-5.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-3-6 {
+	background:url('icons/3-6.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-4-0 {
+	background:url('icons/4.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-4-1 {
+	background:url('icons/4-1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-4-2 {
+	background:url('icons/4-2.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-4-3 {
+	background:url('icons/4-3.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-4-4 {
+	background:url('icons/4-4.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-4-5 {
+	background:url('icons/4-5.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-4-6 {
+	background:url('icons/4-6.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-4-7 {
+	background:url('icons/4-7.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-11-1 {
+	background:url('icons/11-1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-11-2 {
+	background:url('icons/11-2.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-11-3 {
+	background:url('icons/11-3.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-11-4 {
+	background:url('icons/11-4.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-11-5 {
+	background:url('icons/11-5.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-11-6 {
+	background:url('icons/11-6.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-11-7 {
+	background:url('icons/11-7.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-11-8 {
+	background:url('icons/11-8.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-11-9 {
+	background:url('icons/11-9.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-11-10 {
+	background:url('icons/11-10.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-12-1 {
+	background:url('icons/12-1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-12-2 {
+	background:url('icons/12-2.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-12-3 {
+	background:url('icons/12-3.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-12-4 {
+	background:url('icons/12-4.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-12-5 {
+	background:url('icons/12-5.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-12-6 {
+	background:url('icons/12-6.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-12-7 {
+	background:url('icons/12-7.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-12-8 {
+	background:url('icons/12-8.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-12-9 {
+	background:url('icons/12-9.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-12-10 {
+	background:url('icons/12-10.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-13-1 {
+	background:url('icons/13-1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-13-2 {
+	background:url('icons/13-2.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-13-3 {
+	background:url('icons/13-3.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-13-4 {
+	background:url('icons/13-4.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-13-5 {
+	background:url('icons/13-5.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-13-6 {
+	background:url('icons/13-6.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-13-7 {
+	background:url('icons/13-7.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-13-8 {
+	background:url('icons/13-8.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-13-9 {
+	background:url('icons/13-9.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-13-10 {
+	background:url('icons/13-10.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-14-1 {
+	background:url('icons/14-1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-14-2 {
+	background:url('icons/14-2.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-14-3 {
+	background:url('icons/14-3.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-14-4 {
+	background:url('icons/14-4.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-14-5 {
+	background:url('icons/14-5.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-14-6 {
+	background:url('icons/14-6.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-14-7 {
+	background:url('icons/14-7.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-14-8 {
+	background:url('icons/14-8.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-14-9 {
+	background:url('icons/14-9.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-14-10 {
+	background:url('icons/14-10.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-15-1 {
+	background:url('icons/15-1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-15-2 {
+	background:url('icons/15-2.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-15-3 {
+	background:url('icons/15-3.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-15-4 {
+	background:url('icons/15-4.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-15-5 {
+	background:url('icons/15-5.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-15-6 {
+	background:url('icons/15-6.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-15-7 {
+	background:url('icons/15-7.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-15-8 {
+	background:url('icons/15-8.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-15-9 {
+	background:url('icons/15-9.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-15-10 {
+	background:url('icons/15-10.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-16-1 {
+	background:url('icons/16-1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-16-2 {
+	background:url('icons/16-2.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-16-3 {
+	background:url('icons/16-3.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-16-4 {
+	background:url('icons/16-4.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-16-5 {
+	background:url('icons/16-5.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-16-6 {
+	background:url('icons/16-6.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-16-7 {
+	background:url('icons/16-7.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-16-8 {
+	background:url('icons/16-8.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-16-9 {
+	background:url('icons/16-9.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-16-10 {
+	background:url('icons/16-10.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-17-1 {
+	background:url('icons/17-1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-17-2 {
+	background:url('icons/17-2.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-17-3 {
+	background:url('icons/17-3.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-17-4 {
+	background:url('icons/17-4.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-17-5 {
+	background:url('icons/17-5.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-17-6 {
+	background:url('icons/17-6.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-17-7 {
+	background:url('icons/17-7.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-17-8 {
+	background:url('icons/17-8.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-17-9 {
+	background:url('icons/17-9.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-17-10 {
+	background:url('icons/17-10.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-18-1 {
+	background:url('icons/18-1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-18-2 {
+	background:url('icons/18-2.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-18-3 {
+	background:url('icons/18-3.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-18-4 {
+	background:url('icons/18-4.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-18-5 {
+	background:url('icons/18-5.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-18-6 {
+	background:url('icons/18-6.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-18-7 {
+	background:url('icons/18-7.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-18-8 {
+	background:url('icons/18-8.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-18-9 {
+	background:url('icons/18-9.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-18-10 {
+	background:url('icons/18-10.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-19-1 {
+	background:url('icons/19-1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-19-2 {
+	background:url('icons/19-2.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-19-3 {
+	background:url('icons/19-3.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-19-4 {
+	background:url('icons/19-4.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-19-5 {
+	background:url('icons/19-5.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-19-6 {
+	background:url('icons/19-6.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-19-7 {
+	background:url('icons/19-7.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-19-8 {
+	background:url('icons/19-8.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-19-9 {
+	background:url('icons/19-9.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-19-10 {
+	background:url('icons/19-10.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-20-1 {
+	background:url('icons/20-1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-20-2 {
+	background:url('icons/20-2.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-20-3 {
+	background:url('icons/20-3.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-20-4 {
+	background:url('icons/20-4.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-20-5 {
+	background:url('icons/20-5.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-20-6 {
+	background:url('icons/20-6.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-20-7 {
+	background:url('icons/20-7.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-20-8 {
+	background:url('icons/20-8.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-20-9 {
+	background:url('icons/20-9.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-20-10 {
+	background:url('icons/20-10.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-31-1 {
+	background:url('icons/31-1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-31-2 {
+	background:url('icons/31-2.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-31-3 {
+	background:url('icons/20-10.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-31-4 {
+	background:url('icons/31-4.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-31-5 {
+	background:url('icons/31-5.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-31-6 {
+	background:url('icons/31-6.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-31-7 {
+	background:url('icons/31-7.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-31-8 {
+	background:url('icons/31-8.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-32-1 {
+	background:url('icons/32-1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-32-2 {
+	background:url('icons/32-2.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+.icon-defectSelect {
+	background:url('icons/defectSelect.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-peopleSelect {
+	background:url('icons/peopleSelect.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-vip {
+	background:url('icons/vip.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-import {
+	background:url('icons2/import.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-export {
+	background:url('icons2/export.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-end {
+	background:url('icons2/end.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-preview {
+	background:url('icons2/preview.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-save {
+	background:url('icons2/save.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-send {
+	background:url('icons2/send.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-upload {
+	background:url('icons2/upload.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-visite {
+	background:url('icons2/visite.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+
+.icon-key {
+	background:url('icons2/key1.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+.icon-cancelEndCase {
+	background:url('icons2/cancelEndCase.png') no-repeat center center;
+    background-size: 16px 16px;
+}

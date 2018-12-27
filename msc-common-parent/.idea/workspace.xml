@@ -1,0 +1,1929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="msc-web-supervise:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list id="bf725120-4b48-49ec-904b-865f251e7d00" name="ignores" comment="ignores">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/msc-common-parent.iml" />
+    </list>
+    <list default="true" readonly="true" id="29e0db8a-65b7-4477-882c-49c6d931f1ea" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-web-admin/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-web-count/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-service-count/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-facade-count/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-service-client/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-facade-b2b/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-web-supervise/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-facade-base/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-web-b2b/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-web-base/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-service-base/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-web-medic/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-webservice-b2b/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-service-b2b/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-service-supervise/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-facade-client/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-web-b2bsearch/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-common-config/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-facade-supervise/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-web-admin-bak/target/" />
+    <ignored path="$PROJECT_DIR$/../msc-web-sys/target/" />
+    <ignored path="$PROJECT_DIR$/../client/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/msc_common_parent$login_jsp.coverage" NAME="login.jsp Coverage Results" MODIFIED="1541584129185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="MEDCINETEST" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="CountTaskJob.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../msc-web-count/src/main/java/com/shyl/msc/count/task/CountTaskJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DubboProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../msc-service-count/src/test/java/dubbo/test/DubboProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskLockDAO.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/repo/com/shyl/shyl-common-cache/1.5/shyl-common-cache-1.5.jar!/com/shyl/common/cache/dao/TaskLockDAO.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-shiro.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../msc-web-supervise/src/main/resources/applicationContext-shiro.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1450">
+              <caret line="58" column="63" lean-forward="false" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../msc-common-config/src/main/resources/shenzhen_produce/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="public_system.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../msc-common-config/src/main/resources/shenzhen_produce/public_system.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../msc-common-config/src/main/resources/shenzhen_produce/db.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_sup.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../msc-common-config/src/main/resources/shenzhen_produce/db_sup.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderCService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../msc-service-count/src/main/java/com/shyl/msc/count/service/impl/OrderCService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="80" column="12" lean-forward="true" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+              <folding>
+                <element signature="e#2159#2188#0" expanded="true" />
+                <element signature="e#18705#18713#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VendorC1Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../msc-web-count/src/main/java/com/shyl/msc/count/controller/VendorC1Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2275">
+              <caret line="120" column="29" lean-forward="false" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>zkclient.sessionTimeout</find>
+      <find>lockFactory</find>
+      <find>lockCollection</find>
+      <find>curatorFramework</find>
+      <find>imp</find>
+      <find>page.gets</find>
+      <find>sort</find>
+      <find>executed</find>
+      <find>passorderdetailc</find>
+      <find>passOrderDetailC</find>
+      <find>orderDetailC</find>
+      <find>projectCode</find>
+      <find>updateBatch</find>
+      <find>data</find>
+      <find>getOrderDetailC</find>
+      <find>hospitalService</find>
+      <find>countTaskJob</find>
+      <find>TaskLockDAO</find>
+      <find>priceTaskJob</find>
+      <find>mvc</find>
+      <find>setInsuranceDrugSum</find>
+      <find>订单响应率</find>
+      <find>insu</find>
+      <find>reviewTimes</find>
+      <find>批次一</find>
+      <find>getOrderC</find>
+      <find>zookeeperTemplate</find>
+      <find>client</find>
+      <find>clientTemplate</find>
+      <find>taskLockTemplate</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>192.168.100.188</replace>
+      <replace>192.168.237.156</replace>
+      <replace>55.0.1.30</replace>
+      <replace>55.8.6.60</replace>
+      <replace>jdbc:oracle:thin:@55.0.1.30:1521:orcl</replace>
+      <replace>orcl1</replace>
+      <replace>&lt;oscache:cache time=&quot;60&quot;&gt;</replace>
+      <replace>&lt;param-value&gt;600&lt;/param-value&gt;</replace>
+      <replace>zsyl_2018</replace>
+      <replace>IPurchaseOrderDetailService</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\ideaData20180807\shenZhenProject\msc-service-supervise</dir>
+      <dir>D:\ideaData20180807\shenZhenProject\msc-service-b2b</dir>
+      <dir>D:\ideaData20180807\shenZhenProject\msc-common-config</dir>
+    </dirStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../msc-web-b2b/src/main/java/com/shyl/msc/hospital/controller/HospitalContractController.java" />
+        <option value="D:/repo/com/shyl/shyl-common-framework/1.11/shyl-common-framework-1.11.jar!/com/shyl/common/framework/service/IBaseService.class" />
+        <option value="$PROJECT_DIR$/../msc-facade-b2b/src/main/java/com/shyl/msc/b2b/plan/service/IContractService.java" />
+        <option value="$PROJECT_DIR$/../msc-service-b2b/src/main/java/com/shyl/msc/b2b/order/dao/impl/ReturnsOrderDao.java" />
+        <option value="$PROJECT_DIR$/../msc-web-base/src/main/java/com/shyl/msc/dm/controller/GoodsSourceController.java" />
+        <option value="$PROJECT_DIR$/../msc-web-supervise/src/main/java/com/shyl/msc/hospital/controller/HospitalContractController.java" />
+        <option value="$PROJECT_DIR$/../msc-service-b2b/src/main/java/com/shyl/msc/b2b/plan/service/impl/ContractService.java" />
+        <option value="$PROJECT_DIR$/../msc-service-b2b/src/main/java/com/shyl/msc/b2b/plan/dao/impl/ContractDetailDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../msc-web-medic/src/main/java/com/shyl/msc/home/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/../msc-web-b2bsearch/src/main/java/com/shyl/msc/b2b/report/controller/HospitalTradeJBGoodsController.java" />
+        <option value="$PROJECT_DIR$/../msc-service-b2b/src/main/java/com/shyl/msc/b2b/order/service/impl/PurchaseOrderDetailService.java" />
+        <option value="$PROJECT_DIR$/../msc-service-base/src/main/java/com/shyl/msc/set/service/impl/WarehouseService.java" />
+        <option value="$PROJECT_DIR$/../msc-web-b2b/pom.xml" />
+        <option value="$PROJECT_DIR$/../msc-service-base/src/main/java/com/shyl/msc/dm/dao/impl/ProductDao.java" />
+        <option value="$PROJECT_DIR$/../msc-web-supervise/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../msc-web-supervise/src/main/webapp/WEB-INF/jsp/home/homeForM.jsp" />
+        <option value="$PROJECT_DIR$/../msc-service-b2b/src/main/java/com/shyl/msc/b2b/plan/service/impl/ContractDetailService.java" />
+        <option value="$PROJECT_DIR$/../client/src/main/java/com/shyl/util/Constants.java" />
+        <option value="$PROJECT_DIR$/../msc-service-base/src/main/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/../msc-service-supervise/src/main/resources/spring/applicationContext.xml" />
+        <option value="D:/repo/com/shyl/msc-facade-sys/0.0.14/msc-facade-sys-0.0.14.jar!/com/shyl/sys/entity/Permission.class" />
+        <option value="D:/repo/com/shyl/msc-facade-sys/0.0.14/msc-facade-sys-0.0.14.jar!/com/shyl/sys/entity/Group.class" />
+        <option value="$PROJECT_DIR$/../msc-web-supervise/src/main/webapp/WEB-INF/jsp/supervise/clinicAnalysis/index.jsp" />
+        <option value="$PROJECT_DIR$/../msc-web-supervise/src/main/webapp/WEB-INF/jsp/supervise/absRecipeRatio/index.jsp" />
+        <option value="D:/repo/com/shyl/msc-service-sys/0.0.3/msc-service-sys-0.0.3.jar!/com/shyl/sys/service/impl/PermissionService.class" />
+        <option value="$PROJECT_DIR$/../msc-web-supervise/pom.xml" />
+        <option value="$PROJECT_DIR$/../msc-service-count/src/main/java/com/shyl/msc/count/dao/impl/ProductCDao.java" />
+        <option value="$PROJECT_DIR$/../msc-service-count/src/main/java/com/shyl/msc/count/dao/IHospitalProductCDao.java" />
+        <option value="$PROJECT_DIR$/../msc-web-admin/src/main/java/com/shyl/msc/base/LogFileController.java" />
+        <option value="$PROJECT_DIR$/../msc-service-b2b/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/../msc-service-b2b/src/main/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/../msc-service-b2b/src/main/resources/dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/../msc-service-b2b/src/main/resources/dubbo-consumer.xml" />
+        <option value="$PROJECT_DIR$/../msc-service-count/src/main/resources/dubbo-consumer.xml" />
+        <option value="D:/repo/com/shyl/shyl-common-framework/1.12/shyl-common-framework-1.12.jar!/com/shyl/common/framework/service/BaseService.class" />
+        <option value="$PROJECT_DIR$/../msc-web-b2b/src/main/webapp/WEB-INF/jsp/hospital/productVendor/list.jsp" />
+        <option value="$PROJECT_DIR$/../msc-web-base/src/main/webapp/WEB-INF/jsp/dm/GpoProductList/list.jsp" />
+        <option value="$PROJECT_DIR$/../msc-webservice-b2b/src/main/java/com/shyl/msc/webService/impl/CompanyWebService.java" />
+        <option value="$PROJECT_DIR$/../msc-web-b2bsearch/src/main/java/com/shyl/msc/b2b/monitor/controller/HisStockDayController.java" />
+        <option value="$PROJECT_DIR$/../msc-service-b2b/src/main/java/com/shyl/msc/b2b/order/dao/impl/PurchaseOrderDetailDao.java" />
+        <option value="$PROJECT_DIR$/../msc-common-config/src/main/resources/localhost_test/public_system.properties" />
+        <option value="$PROJECT_DIR$/../msc-service-supervise/src/main/java/com/shyl/msc/supervise/dao/impl/ClinicAnalysisDeptDao.java" />
+        <option value="$PROJECT_DIR$/../msc-service-count/src/main/java/com/shyl/msc/count/service/impl/OrderDetailCService.java" />
+        <option value="$PROJECT_DIR$/../msc-common-config/pom.xml" />
+        <option value="$PROJECT_DIR$/../msc-web-count/src/test/java/com/shyl/TestTask.java" />
+        <option value="$PROJECT_DIR$/../msc-web-count/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/../msc-web-count/src/test/java/TestTask.java" />
+        <option value="$PROJECT_DIR$/../msc-web-supervise/src/test/java/TestTask.java" />
+        <option value="D:/repo/com/shyl/shyl-common-cache/1.5/shyl-common-cache-1.5.jar!/com/shyl/common/cache/dao/TaskLockDAO.class" />
+        <option value="$PROJECT_DIR$/../msc-web-count/src/main/java/com/shyl/msc/count/task/CountTaskJob.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repo" />
+        <option name="userSettingsFile" value="D:\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="472" />
+    <option name="y" value="36" />
+    <option name="width" value="1400" />
+    <option name="height" value="990" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="msc-common-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="msc-service-count" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="msc-common-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="msc-service-count" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="msc-common-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="msc-service-count" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="msc-common-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="msc-service-count" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="msc-common-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="msc-service-count" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="msc-common-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="msc-service-count" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="msc-common-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="msc-service-count" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="msc-common-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="msc-service-count" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="msc-common-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="msc-web-count" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="msc-common-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="msc-web-count" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="msc-common-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="msc-web-count" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="msc-common-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="msc-web-count" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="msc-common-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="msc-web-count" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../git-chenjinProject/chenjin-parent/pom.xml" />
+    <property name="SearchEverywhereHistoryKey" value="/dm/GpoProductList/list&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-base/src/main/webapp/WEB-INF/jsp/dm/GpoProductList/list.jsp&#10;/dm/productDetail/list&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-base/src/main/webapp/WEB-INF/jsp/dm/productDetail/list.jsp&#10;/hospital/goods/&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-b2b/src/main/webapp/WEB-INF/jsp/hospital/goods&#10;/set/hospital&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-base/src/main/webapp/WEB-INF/jsp/set/hospital&#10;set/hospital&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-base/src/main/java/com/shyl/msc/set/controller/HospitalController.java&#10;/b2b/report/productReport/list&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-b2bsearch/src/main/webapp/WEB-INF/jsp/b2b/report/productReport/list.jsp&#10;report/productReport&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-b2bsearch/src/main/java/com/shyl/msc/b2b/report/controller/ProductReportController.java&#10;hospital/productVendor/list&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-b2b/src/main/webapp/WEB-INF/jsp/hospital/productVendor/list.jsp&#10;productVendor/&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-b2b/src/main/java/com/shyl/msc/hospital/controller/HospitalProductVendorController.java&#10;/count/hospitalC3&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-count/src/main/java/com/shyl/msc/count/controller/HospitalC3Controller.java&#10;mappi&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-base/src/main/webapp/WEB-INF/jsp/dm/goodsSource/mapping.jsp&#10;dm/goodsSource/mapping&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-base/src/main/webapp/WEB-INF/jsp/dm/goodsSource/mapping.jsp&#10;absRecipeRatio/&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-supervise/src/main/webapp/WEB-INF/jsp/supervise/absRecipeRatio&#10;hospital/plan/projectList&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-b2b/src/main/webapp/WEB-INF/jsp/hospital/plan/projectList.jsp&#10;/b2b/hospital&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-b2b/src/main/webapp/WEB-INF/jsp/gpo/projectDetail/hospital.jsp&#10;hospital/plan&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-b2b/src/main/webapp/WEB-INF/jsp/hospital/plan/planList.jsp&#10;hospital/cart/importErr&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-b2b/src/main/webapp/WEB-INF/jsp/hospital/cart/importErr.jsp&#10;productprice/list&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-base/src/main/webapp/WEB-INF/jsp/dm/productPrice/list.jsp&#10;dm/product/list&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-base/src/main/webapp/WEB-INF/jsp/dm/product/list.jsp&#10;dm/productRegister/add&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-base/src/main/webapp/WEB-INF/jsp/dm/productRegister/audit/add.jsp&#10;/supervise/quota/add&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-supervise/src/main/webapp/WEB-INF/jsp/supervise/quota/add.jsp&#10;b2b/monitor/returnsRequest/list&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-b2bsearch/src/main/webapp/WEB-INF/jsp/b2b/monitor/returnsRequest/list.jsp&#10;monitor/returnsRequest&#9;null&#9;null&#10;b2b/monitor/inOutBound/list&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-b2bsearch/src/main/webapp/WEB-INF/jsp/b2b/monitor/inOutBound/list.jsp&#10;product/list&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-base/src/main/webapp/WEB-INF/jsp/dm/product/list.jsp&#10;product&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-facade-base/src/main/java/com/shyl/msc/dm/entity/Product.java&#10;goodshospital/list&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-b2b/src/main/webapp/WEB-INF/jsp/hospital/goodsHospital/list.jsp&#10;/supervise/medicine&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-supervise/src/main/webapp/WEB-INF/jsp/supervise/medicine&#10;/supervise/auxiliaryDrug/index&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-supervise/src/main/webapp/WEB-INF/jsp/supervise/auxiliaryDrug/index.jsp&#10;dm/productRegister/list&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-base/src/main/webapp/WEB-INF/jsp/dm/productRegister/list.jsp&#10;spring-shiro-ehcache.xml&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-admin/src/main/resources/spring-shiro-ehcache.xml&#10;sys/attributeItem/add&#9;null&#9;null&#10;/dm/product/add&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-base/src/main/webapp/WEB-INF/jsp/dm/product/add.jsp&#10;dm/productPrice/list&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-base/src/main/webapp/WEB-INF/jsp/dm/productPrice/list.jsp&#10;dm/goodsCountry/list&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-base/src/main/webapp/WEB-INF/jsp/dm/goodsCountry/list.jsp&#10;set/company/list&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-base/src/main/webapp/WEB-INF/jsp/set/company/list.jsp&#10;b2b/report/contractMx/l&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-b2bsearch/src/main/webapp/WEB-INF/jsp/b2b/report/contractMX/list.jsp&#10;contractMX&#9;PSI&#9;JAVA://com.shyl.msc.b2b.report.controller.ContractMXController&#10;ProductDetail/list&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-b2b/src/main/webapp/WEB-INF/jsp/hospital/productDetail/list.jsp&#10;hospital/plan/*.jsp&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-b2b/src/main/webapp/WEB-INF/jsp/hospital/plan/projectList.jsp&#10;regulationorg/edit&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-base/src/main/webapp/WEB-INF/jsp/set/regulationorg/edit.jsp&#10;autoorder/list&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-b2b/src/main/webapp/WEB-INF/jsp/vendor/autoorder/list.jsp&#10;company/list&#9;FILE&#9;file://D:/ideaData20180807/shenZhenProject/msc-web-base/src/main/webapp/WEB-INF/jsp/set/company/list.jsp" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../msc-common-config/src/main/resources/shenzhen_produce/db.xml" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/../msc-web-count/src/test/java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.shyl.client" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaData20180807\shenZhenProject\msc-web-base\src\main\webapp\WEB-INF\jsp\dm\productPrice" />
+      <recent name="D:\ideaData20180807\shenZhenProject\msc-web-supervise\src\main\resources" />
+      <recent name="D:\ideaData20180807\shenZhenProject\msc-common-config\src\main\resources" />
+      <recent name="D:\ideaData20180807\shenZhenProject\msc-web-admin\src\main\webapp" />
+      <recent name="D:\ideaData20180807\shenZhenProject\msc-web-admin\src\main\resources\template" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat">
+    <configuration name="TestTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="msc-web-supervise" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTask" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestTask.countTaskJob" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="msc-web-supervise" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTask" />
+      <option name="METHOD_NAME" value="countTaskJob" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="b2b-dubbo" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dubbo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="dubbo.test.DubboProvider" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="msc-service-b2b" />
+      <envs />
+    </configuration>
+    <configuration name="base-dubbo" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dubbo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="dubbo.test.DubboProvider" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="msc-service-base" />
+      <envs />
+    </configuration>
+    <configuration name="count-dubbo" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dubbo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="dubbo.test.DubboProvider" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="msc-service-count" />
+      <envs />
+    </configuration>
+    <configuration name="msc-common-parent" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=GBK" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method>
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="" />
+      </method>
+    </configuration>
+    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/sup" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="msc-web-supervise:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/msc-web-supervise" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_msc-common-parent" />
+        <option name="HTTP_PORT" value="8088" />
+        <option name="JNDI_PORT" value="1090" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59689" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="msc-web-supervise:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Maven.msc-common-parent" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
+      <item index="2" class="java.lang.String" itemvalue="Application.base-dubbo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.b2b-dubbo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.count-dubbo" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TestTask" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.TestTask.countTaskJob" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.count-dubbo" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestTask.countTaskJob" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestTask" />
+        <item index="3" class="java.lang.String" itemvalue="Application.b2b-dubbo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.base-dubbo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\陈进\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\ideaData20180807\git-msc\msc-common-parent" />
+          <option name="myCopyRoot" value="D:\ideaData20180807\git-msc\msc-common-parent" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\ideaData20180807\git-msc\msc-common-parent" />
+          <option name="myCopyRoot" value="D:\ideaData20180807\git-msc\msc-common-parent" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29e0db8a-65b7-4477-882c-49c6d931f1ea" name="Default" comment="" />
+      <changelist id="bf725120-4b48-49ec-904b-865f251e7d00" name="ignores" comment="" />
+      <created>1533605427059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533605427059</updated>
+      <workItem from="1533605430363" duration="183000" />
+      <workItem from="1533605628928" duration="1262000" />
+      <workItem from="1533717704755" duration="772000" />
+      <workItem from="1533803867339" duration="5931000" />
+      <workItem from="1533893040166" duration="5810000" />
+      <workItem from="1534131280980" duration="6182000" />
+      <workItem from="1534153703112" duration="1686000" />
+      <workItem from="1534296458782" duration="5986000" />
+      <workItem from="1534319148920" duration="2285000" />
+      <workItem from="1534399354209" duration="4795000" />
+      <workItem from="1534469311864" duration="1263000" />
+      <workItem from="1534574861520" duration="6082000" />
+      <workItem from="1534727919538" duration="174000" />
+      <workItem from="1534733529734" duration="9272000" />
+      <workItem from="1534832937883" duration="285000" />
+      <workItem from="1534841812544" duration="1413000" />
+      <workItem from="1534899899527" duration="45000" />
+      <workItem from="1534907922107" duration="12468000" />
+      <workItem from="1535000476966" duration="880000" />
+      <workItem from="1535073245747" duration="35000" />
+      <workItem from="1535206521630" duration="2529000" />
+      <workItem from="1535334964480" duration="31000" />
+      <workItem from="1535338158407" duration="9177000" />
+      <workItem from="1535378059527" duration="16442000" />
+      <workItem from="1535508275343" duration="2295000" />
+      <workItem from="1535622388193" duration="3875000" />
+      <workItem from="1535701911972" duration="52858000" />
+      <workItem from="1535938130146" duration="14472000" />
+      <workItem from="1536027459692" duration="1860000" />
+      <workItem from="1536042467185" duration="16593000" />
+      <workItem from="1536111406151" duration="8704000" />
+      <workItem from="1536200277414" duration="72000" />
+      <workItem from="1536205841074" duration="96000" />
+      <workItem from="1536215346745" duration="3636000" />
+      <workItem from="1536280252826" duration="1147000" />
+      <workItem from="1536286643429" duration="3331000" />
+      <workItem from="1536541266785" duration="649000" />
+      <workItem from="1537231755321" duration="2148000" />
+      <workItem from="1537234889585" duration="139000" />
+      <workItem from="1537254242656" duration="4142000" />
+      <workItem from="1537278675143" duration="53000" />
+      <workItem from="1537320391433" duration="7186000" />
+      <workItem from="1537406872123" duration="13113000" />
+      <workItem from="1537838059295" duration="8233000" />
+      <workItem from="1537857972784" duration="1277000" />
+      <workItem from="1537923853022" duration="1000" />
+      <workItem from="1537923927400" duration="24094000" />
+      <workItem from="1538311467169" duration="48000" />
+      <workItem from="1538961026018" duration="18920000" />
+      <workItem from="1539130954107" duration="580000" />
+      <workItem from="1539138546261" duration="3096000" />
+      <workItem from="1539153137072" duration="2623000" />
+      <workItem from="1539226501318" duration="20801000" />
+      <workItem from="1539848443314" duration="1981000" />
+      <workItem from="1539938778954" duration="1308000" />
+      <workItem from="1540173574210" duration="11036000" />
+      <workItem from="1540346007113" duration="5001000" />
+      <workItem from="1540366277627" duration="16013000" />
+      <workItem from="1540464825426" duration="2782000" />
+      <workItem from="1540516192940" duration="1561000" />
+      <workItem from="1540775775989" duration="2011000" />
+      <workItem from="1540860617388" duration="13350000" />
+      <workItem from="1540947614252" duration="14521000" />
+      <workItem from="1541033631669" duration="15012000" />
+      <workItem from="1541122705594" duration="6146000" />
+      <workItem from="1541130893590" duration="1451000" />
+      <workItem from="1541133905910" duration="12211000" />
+      <workItem from="1541175813960" duration="16391000" />
+      <workItem from="1541251285895" duration="2754000" />
+      <workItem from="1541398064830" duration="14000000" />
+      <workItem from="1541467247429" duration="6542000" />
+      <workItem from="1541495024927" duration="1555000" />
+      <workItem from="1541505962771" duration="1752000" />
+      <workItem from="1541574960287" duration="19412000" />
+      <workItem from="1541772507944" duration="1963000" />
+      <workItem from="1541986081336" duration="12915000" />
+      <workItem from="1542089211892" duration="2037000" />
+      <workItem from="1542163669949" duration="1356000" />
+      <workItem from="1542247033497" duration="2328000" />
+      <workItem from="1542249386293" duration="7215000" />
+      <workItem from="1542609015017" duration="9900000" />
+      <workItem from="1542679965337" duration="12288000" />
+      <workItem from="1542766598212" duration="2952000" />
+      <workItem from="1542783345690" duration="5762000" />
+      <workItem from="1542794932979" duration="4030000" />
+      <workItem from="1542849279312" duration="6650000" />
+      <workItem from="1542939100535" duration="9773000" />
+      <workItem from="1543198688930" duration="2311000" />
+      <workItem from="1543216547417" duration="40000" />
+      <workItem from="1543288716240" duration="7218000" />
+      <workItem from="1543372021604" duration="11534000" />
+      <workItem from="1543456043400" duration="7903000" />
+      <workItem from="1543539251561" duration="24082000" />
+      <workItem from="1543624422328" duration="21466000" />
+      <workItem from="1543679813875" duration="1928000" />
+      <workItem from="1543747872713" duration="15582000" />
+      <workItem from="1543823490983" duration="1505000" />
+      <workItem from="1543825075835" duration="6580000" />
+      <workItem from="1543838560751" duration="2987000" />
+      <workItem from="1543847347602" duration="4634000" />
+      <workItem from="1543885216582" duration="19014000" />
+      <workItem from="1543919321151" duration="16370000" />
+      <workItem from="1543988247889" duration="6620000" />
+      <workItem from="1544004162911" duration="3773000" />
+      <workItem from="1544057891578" duration="5207000" />
+      <workItem from="1544157226917" duration="6963000" />
+      <workItem from="1544403513920" duration="3636000" />
+      <workItem from="1544413889142" duration="16060000" />
+      <workItem from="1544503395697" duration="1218000" />
+      <workItem from="1544536212693" duration="8284000" />
+      <workItem from="1544591667868" duration="4704000" />
+      <workItem from="1544663321965" duration="15405000" />
+      <workItem from="1544751250210" duration="7801000" />
+      <workItem from="1545015286162" duration="8946000" />
+      <workItem from="1545051661091" duration="6604000" />
+      <workItem from="1545094971504" duration="14392000" />
+      <workItem from="1545181183775" duration="14852000" />
+      <workItem from="1545296955413" duration="2765000" />
+      <workItem from="1545353547241" duration="17964000" />
+      <workItem from="1545393072200" duration="2453000" />
+      <workItem from="1545613356439" duration="8150000" />
+      <workItem from="1545700096165" duration="3934000" />
+      <workItem from="1545786822474" duration="15139000" />
+      <workItem from="1545877360961" duration="1220000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1534130371093</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534130371093</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1534141319863</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534141319864</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1534142776219</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534142776219</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1534143968502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534143968502</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <created>1534577135922</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534577135922</updated>
+    </task>
+    <task id="LOCAL-00006">
+      <created>1534577378218</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534577378218</updated>
+    </task>
+    <task id="LOCAL-00007">
+      <created>1534584932456</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1534584932456</updated>
+    </task>
+    <task id="LOCAL-00008">
+      <created>1534585224881</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1534585224881</updated>
+    </task>
+    <task id="LOCAL-00009">
+      <created>1534585830425</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1534585830425</updated>
+    </task>
+    <task id="LOCAL-00010">
+      <created>1534734112973</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1534734112973</updated>
+    </task>
+    <task id="LOCAL-00011">
+      <created>1534759402686</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1534759402686</updated>
+    </task>
+    <task id="LOCAL-00012">
+      <created>1534759413838</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1534759413838</updated>
+    </task>
+    <task id="LOCAL-00013">
+      <created>1534759575046</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1534759575046</updated>
+    </task>
+    <task id="LOCAL-00014">
+      <created>1536070040389</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1536070040389</updated>
+    </task>
+    <task id="LOCAL-00015">
+      <created>1536070070482</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1536070070482</updated>
+    </task>
+    <task id="LOCAL-00016">
+      <created>1536070089746</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1536070089746</updated>
+    </task>
+    <task id="LOCAL-00017">
+      <created>1536154286039</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1536154286039</updated>
+    </task>
+    <task id="LOCAL-00018">
+      <created>1540370811419</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1540370811419</updated>
+    </task>
+    <task id="LOCAL-00019">
+      <created>1540382019139</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1540382019139</updated>
+    </task>
+    <task id="LOCAL-00020">
+      <created>1540382038896</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1540382038896</updated>
+    </task>
+    <task id="LOCAL-00021">
+      <created>1540389722579</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1540389722579</updated>
+    </task>
+    <task id="LOCAL-00022">
+      <created>1540389740851</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1540389740851</updated>
+    </task>
+    <task id="LOCAL-00023" summary="中山验收配置数据库参数">
+      <created>1540975855952</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1540975855952</updated>
+    </task>
+    <task id="LOCAL-00024">
+      <created>1541131436663</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1541131436663</updated>
+    </task>
+    <task id="LOCAL-00025" summary="临时取消药品编码的readonly属性">
+      <created>1541148206162</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1541148206162</updated>
+    </task>
+    <task id="LOCAL-00026">
+      <created>1541227009680</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1541227009680</updated>
+    </task>
+    <task id="LOCAL-00027">
+      <created>1543567491933</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1543567491933</updated>
+    </task>
+    <task id="LOCAL-00028">
+      <created>1543650458303</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1543650458303</updated>
+    </task>
+    <task id="LOCAL-00029">
+      <created>1543757831748</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1543757831749</updated>
+    </task>
+    <task id="LOCAL-00030">
+      <created>1543827242414</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1543827242414</updated>
+    </task>
+    <task id="LOCAL-00031" summary="明细功能废弃，拿掉">
+      <created>1543886648084</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1543886648085</updated>
+    </task>
+    <task id="LOCAL-00032">
+      <created>1543929564474</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1543929564475</updated>
+    </task>
+    <task id="LOCAL-00033">
+      <created>1543929589400</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1543929589400</updated>
+    </task>
+    <task id="LOCAL-00034">
+      <created>1543941668728</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1543941668728</updated>
+    </task>
+    <task id="LOCAL-00035">
+      <created>1543941826767</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1543941826767</updated>
+    </task>
+    <task id="LOCAL-00036" summary="暂时屏蔽shiro鉴权，后期要加回来">
+      <created>1544161763564</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1544161763564</updated>
+    </task>
+    <task id="LOCAL-00037">
+      <created>1544423392889</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1544423392889</updated>
+    </task>
+    <task id="LOCAL-00038">
+      <created>1544663899048</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1544663899048</updated>
+    </task>
+    <task id="LOCAL-00039" summary="----------------测评注释版本 来年测评用----------------">
+      <created>1544665531780</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1544665531780</updated>
+    </task>
+    <task id="LOCAL-00040">
+      <created>1544693068321</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1544693068321</updated>
+    </task>
+    <task id="LOCAL-00041">
+      <created>1544693144317</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1544693144317</updated>
+    </task>
+    <task id="LOCAL-00042" summary="不注释b2b-service跑不起来">
+      <created>1545057212126</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1545057212126</updated>
+    </task>
+    <task id="LOCAL-00043" summary="不注释count-service跑不起来">
+      <created>1545057878659</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1545057878659</updated>
+    </task>
+    <task id="LOCAL-00044">
+      <created>1545103886261</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1545103886261</updated>
+    </task>
+    <task id="LOCAL-00045" summary="过账保证数据一致同步增加条件">
+      <created>1545186114186</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1545186114186</updated>
+    </task>
+    <task id="LOCAL-00046" summary="过账保证数据一致同步增加条件">
+      <created>1545191366596</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1545191366596</updated>
+    </task>
+    <task id="LOCAL-00047">
+      <created>1545381357890</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1545381357890</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestTask - 2018.12.26 at 14h 41m 26s.xml">
+      <configuration name="TestTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask - 2018.12.26 at 14h 50m 06s.xml">
+      <configuration name="TestTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask_countTaskJob - 2018.12.26 at 14h 44m 32s.xml">
+      <configuration name="TestTask.countTaskJob" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask_countTaskJob - 2018.12.26 at 14h 57m 59s.xml">
+      <configuration name="TestTask.countTaskJob" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask_countTaskJob - 2018.12.26 at 14h 58m 45s.xml">
+      <configuration name="TestTask.countTaskJob" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask_countTaskJob - 2018.12.26 at 14h 59m 07s.xml">
+      <configuration name="TestTask.countTaskJob" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask_countTaskJob - 2018.12.26 at 15h 01m 10s.xml">
+      <configuration name="TestTask.countTaskJob" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask_countTaskJob - 2018.12.26 at 15h 09m 47s.xml">
+      <configuration name="TestTask.countTaskJob" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="876233000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31566548" sideWeight="0.4946352" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.35321638" sideWeight="0.5112661" order="14" side_tool="true" content_ui="tabs" x="487" y="364" width="946" height="302" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2177879" sideWeight="0.50364584" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14967811" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32508835" sideWeight="0.49635416" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19552414" sideWeight="0.49087983" order="11" side_tool="false" content_ui="combo" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31919906" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32508835" sideWeight="0.49785408" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21190988" sideWeight="0.4383117" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17239584" sideWeight="0.5616883" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="793" y="163" width="633" height="612" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3345112" sideWeight="0.48873392" order="16" side_tool="false" content_ui="tabs" x="28" y="344" width="1864" height="342" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28916308" sideWeight="0.54035085" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3474676" sideWeight="0.49785408" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827103" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744405" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.35321638" sideWeight="0.5112661" order="14" side_tool="true" content_ui="tabs" x="487" y="364" width="946" height="302" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2177879" sideWeight="0.50364584" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14967811" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="793" y="163" width="633" height="612" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3345112" sideWeight="0.48873392" order="16" side_tool="false" content_ui="tabs" x="28" y="344" width="1864" height="342" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31566548" sideWeight="0.4946352" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3474676" sideWeight="0.49785408" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42402828" sideWeight="0.49635416" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40282685" sideWeight="0.49087983" order="11" side_tool="false" content_ui="combo" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31919906" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32508835" sideWeight="0.49785408" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827103" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20654507" sideWeight="0.4383117" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17239584" sideWeight="0.5616883" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28916308" sideWeight="0.54035085" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="中山验收配置数据库参数" />
+    <MESSAGE value="临时取消药品编码的readonly属性" />
+    <MESSAGE value="明细功能废弃，拿掉" />
+    <MESSAGE value="暂时屏蔽shiro鉴权，后期要加回来" />
+    <MESSAGE value="----------------测评注释版本 来年测评用----------------" />
+    <MESSAGE value="不注释b2b-service跑不起来" />
+    <MESSAGE value="不注释count-service跑不起来" />
+    <MESSAGE value="过账保证数据一致同步增加条件" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../msc-service-count/src/main/java/com/shyl/msc/count/service/impl/OrderCService.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="214" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="request.getSession().getId()" />
+        <watch expression="contractName" />
+        <watch expression="out" />
+        <watch expression="filenameEncoder" />
+        <watch expression="agent" />
+        <watch expression="perlist" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="purchaseOrderPlanDetails" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../msc-common-config/src/main/resources/localhost_test/db.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-common-config/src/main/resources/localhost_test/db_sup.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-common-config/src/main/resources/localhost_test/public_system.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-webservice-b2b/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="49" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-common-config/src/main/resources/localhost_test/public_user.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-admin/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-admin/src/main/resources/applicationContext-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="148" column="11" lean-forward="true" selection-start-line="148" selection-start-column="11" selection-end-line="148" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-facade-base/src/main/java/com/shyl/msc/dm/entity/ProductPriceRecordHis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-facade-base/src/main/java/com/shyl/msc/dm/entity/ProductPriceRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-b2bsearch/src/main/java/com/shyl/msc/b2b/report/controller/productPriceMdfController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="70" column="48" lean-forward="false" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-facade-base/src/main/java/com/shyl/msc/dm/entity/GpoProductList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-base/src/main/java/com/shyl/msc/dm/controller/ProductDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="66" column="38" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-base/src/main/webapp/WEB-INF/jsp/dm/productDetail/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1450">
+          <caret line="58" column="51" lean-forward="false" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-base/src/main/java/com/shyl/msc/dm/controller/GpoProductListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2325">
+          <caret line="135" column="47" lean-forward="false" selection-start-line="135" selection-start-column="40" selection-end-line="135" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-service-base/src/main/java/com/shyl/msc/dm/service/impl/GpoProductListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1450">
+          <caret line="85" column="40" lean-forward="false" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-service-supervise/src/main/java/com/shyl/msc/supervise/dao/impl/ClinicAnalysisDeptDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="31" column="43" lean-forward="false" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-base/src/main/webapp/WEB-INF/jsp/dm/GpoProductList/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="33" column="85" lean-forward="false" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-supervise/target/msc-web-supervise/resources/css/monitor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-supervise/target/msc-web-supervise/resources/css/report.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-supervise/target/msc-web-supervise/resources/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4275">
+          <caret line="171" column="28" lean-forward="false" selection-start-line="171" selection-start-column="28" selection-end-line="171" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-facade-b2b/src/main/java/com/shyl/msc/b2b/plan/entity/Contract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repo/com/shyl/shyl-common-framework/1.12/shyl-common-framework-1.12.jar!/com/shyl/common/framework/service/BaseService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-facade-base/src/main/java/com/shyl/msc/dm/service/IProductDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-facade-count/src/main/java/com/shyl/msc/count/entity/OrderDetailC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-service-count/src/main/java/com/shyl/msc/count/service/impl/OrderDetailCService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="330" column="87" lean-forward="true" selection-start-line="330" selection-start-column="87" selection-end-line="330" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-supervise/src/main/java/com/shyl/msc/supervise/controller/AbsDrugUserRatioController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="172" column="48" lean-forward="false" selection-start-line="172" selection-start-column="48" selection-end-line="172" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-service-b2b/src/main/java/com/shyl/msc/b2b/plan/dao/impl/ContractDetailDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-count/src/test/java/Test.java" />
+    <entry file="file://$PROJECT_DIR$/../msc-web-count/src/test/java/TestTask.java" />
+    <entry file="file://$PROJECT_DIR$/../msc-web-admin/src/test/java/com/test/testIntercepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-common-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-service-base/src/test/java/dubbo/test/DubboProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-service-b2b/src/test/java/dubbo/test/DubboProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-base/src/main/java/com/shyl/msc/base/task/PriceTaskJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-supervise/target/msc-web-supervise/WEB-INF/classes/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-supervise/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="30" column="76" lean-forward="true" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-supervise/src/test/java/TestTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-facade-b2b/src/main/java/com/shyl/msc/b2b/plan/entity/ContractDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-facade-base/src/main/java/com/shyl/msc/dm/entity/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="136" column="7" lean-forward="true" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-count/src/main/webapp/WEB-INF/jsp/count/vendorC/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="75" column="81" lean-forward="false" selection-start-line="75" selection-start-column="73" selection-end-line="75" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-count/src/main/webapp/WEB-INF/jsp/count/hospitalC/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="166" column="36" lean-forward="false" selection-start-line="166" selection-start-column="36" selection-end-line="166" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-count/src/main/java/com/shyl/msc/count/controller/VendorC1Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2275">
+          <caret line="120" column="29" lean-forward="false" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repo/com/shyl/shyl-common-cache/1.5/shyl-common-cache-1.5.jar!/com/shyl/common/cache/dao/TaskLockDAO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-common-config/src/main/resources/shenzhen_produce/db.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-supervise/src/main/resources/applicationContext-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1450">
+          <caret line="58" column="63" lean-forward="false" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-common-config/src/main/resources/shenzhen_produce/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-common-config/src/main/resources/shenzhen_produce/public_system.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-common-config/src/main/resources/shenzhen_produce/db_sup.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-service-count/src/test/java/dubbo/test/DubboProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-web-count/src/main/java/com/shyl/msc/count/task/CountTaskJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../msc-service-count/src/main/java/com/shyl/msc/count/service/impl/OrderCService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="80" column="12" lean-forward="true" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+          <folding>
+            <element signature="e#2159#2188#0" expanded="true" />
+            <element signature="e#18705#18713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>msc-web-admin-bak:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (msc-facade-count)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>msc-web-count</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-io:commons-io:2.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="package" />
+    <option value="clean" />
+    <option value="clean package" />
+  </component>
+</project>

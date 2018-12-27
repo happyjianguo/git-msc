@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file url="file://$PROJECT_DIR$/../msc-web-admin-bak/overlays" />
+    <file url="file://$PROJECT_DIR$/../msc-web-admin/overlays" />
+    <file url="file://$PROJECT_DIR$/../msc-web-admin/overlays" />
+    <file url="file://$PROJECT_DIR$/../msc-web-b2b/overlays" />
+    <file url="file://$PROJECT_DIR$/../msc-web-b2b/overlays" />
+    <file url="file://$PROJECT_DIR$/../msc-web-medic/overlays" />
+    <file url="file://$PROJECT_DIR$/../msc-web-medic/overlays" />
+    <file url="file://$PROJECT_DIR$/../msc-web-supervise/overlays" />
+    <file url="file://$PROJECT_DIR$/../msc-web-supervise/overlays" />
+    <file type="web" url="file://$PROJECT_DIR$/../msc-web-admin" />
+    <file type="web" url="file://$PROJECT_DIR$/../msc-web-admin-bak" />
+    <file type="web" url="file://$PROJECT_DIR$/../msc-web-b2b" />
+    <file type="web" url="file://$PROJECT_DIR$/../msc-web-b2bsearch" />
+    <file type="web" url="file://$PROJECT_DIR$/../msc-web-base" />
+    <file type="web" url="file://$PROJECT_DIR$/../msc-web-count" />
+    <file type="web" url="file://$PROJECT_DIR$/../msc-web-medic" />
+    <file type="web" url="file://$PROJECT_DIR$/../msc-web-supervise" />
+    <file type="web" url="file://$PROJECT_DIR$/../msc-webservice-b2b" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../client/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../msc-web-sys/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$/../msc-common-config">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="svn://61.164.39.69:28025/msc/public/msc-common-config" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+</project>

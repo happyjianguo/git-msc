@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<db> 
+	<projectCode name="ZS" value="ZS"/>
+	<projectCode name="ZS_SUP" value="ZS_SUP"/>
+	<projectCode name="sup_45726569044200011A1001" value="sup_45726569044200011A1001"/>
+	<projectCode name="sup_45726645844200011A1001" value="sup_45726645844200011A1001"/>
+	<projectCode name="sup_G1916856344200011A1001" value="sup_G1916856344200011A1001"/>
+	<projectCode name="sup_G1917213244200011A1001" value="sup_G1917213244200011A1001"/>
+	<!-- 新加32家医院 -->
+	<projectCode name="sup_G1917348544200011A1001A"	 value="sup_G1917348544200011A1001A"/>
+	<projectCode name="sup_72875828744200012A1001" 	 value="sup_72875828744200012A1001"/>
+	<projectCode name="sup_G1917348544200011A1001" 	 value="sup_G1917348544200011A1001"/>
+	<projectCode name="sup_G1916965444200011A1001" 	 value="sup_G1916965444200011A1001"/>
+	<projectCode name="sup_G1917352244200011A1001" 	 value="sup_G1917352244200011A1001"/>
+	<projectCode name="sup_G1917209544200011A1001" 	 value="sup_G1917209544200011A1001"/>
+	<projectCode name="sup_G1917207944200011A1001" 	 value="sup_G1917207944200011A1001"/>
+	<projectCode name="sup_45726642344200011A1001" 	 value="sup_45726642344200011A1001"/>
+	<projectCode name="sup_45726643144200011A5241" 	 value="sup_45726643144200011A5241"/>
+	<projectCode name="sup_G1916992944200011A1001" 	 value="sup_G1916992944200011A1001"/>
+	<projectCode name="sup_G1917384844200011A1001" 	 value="sup_G1917384844200011A1001"/>
+	<projectCode name="sup_45726620444200011A1001" 	 value="sup_45726620444200011A1001"/>
+	<projectCode name="sup_45726533244200011A2101" 	 value="sup_45726533244200011A2101"/>
+	<projectCode name="sup_G1916968944200011A1001" 	 value="sup_G1916968944200011A1001"/>
+	<projectCode name="sup_G1917099744200011A1001" 	 value="sup_G1917099744200011A1001"/>
+	<projectCode name="sup_45726626344200011A1001" 	 value="sup_45726626344200011A1001"/>
+	<projectCode name="sup_G1917051644200011A1001" 	 value="sup_G1917051644200011A1001"/>
+	<projectCode name="sup_G1917047944200011A1001" 	 value="sup_G1917047944200011A1001"/>
+	<projectCode name="sup_G1916826444200011A1001" 	 value="sup_G1916826444200011A1001"/>
+	<projectCode name="sup_G1916914444200011A1001" 	 value="sup_G1916914444200011A1001"/>
+	<projectCode name="sup_G1917103344200011A1001" 	 value="sup_G1917103344200011A1001"/>
+	<projectCode name="sup_45726530844200011A1001" 	 value="sup_45726530844200011A1001"/>
+	<projectCode name="sup_66333399X44200011A1001" 	 value="sup_66333399X44200011A1001"/>
+	<projectCode name="sup_G1916854744200011A1001" 	 value="sup_G1916854744200011A1001"/>
+	<projectCode name="sup_45726536744200011A5201" 	 value="sup_45726536744200011A5201"/>
+	<projectCode name="sup_56081937244200011A1001" 	 value="sup_56081937244200011A1001"/>
+	<projectCode name="sup_G1917150044200011A1001" 	 value="sup_G1917150044200011A1001"/>
+	<projectCode name="sup_45726623944200011A1001" 	 value="sup_45726623944200011A1001"/>
+	<projectCode name="sup_G1917105X44200011A1001" 	 value="sup_G1917105X44200011A1001"/>
+	<projectCode name="sup_77782944044200017A1001" 	 value="sup_77782944044200017A1001"/>
+	<projectCode name="sup_66149336744200017A5132" 	 value="sup_66149336744200017A5132"/>
+	<projectCode name="sup_73313500944200090A1001" 	 value="sup_73313500944200090A1001"/>
+	<projectCode name="sup_70764024744200090A1001" 	 value="sup_70764024744200090A1001"/>
+	<!-- 主数据源 -->
+	<dataSource type="JDBC" name="ZS" jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="zsypjy" jdbc_password="zSyP.com" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="ZS_SUP" jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="zsyyjg" jdbc_password="zSyP.com" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<!-- 中山医院 -->
+	<dataSource type="JDBC" name="sup_45726569044200011A1001" jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_sqshzyy" jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_45726645844200011A1001" jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_hjkfqyy" jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1916856344200011A1001" jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_tzyy" jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1917213244200011A1001" jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_sxyy" jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<!-- 新加32家医院 -->
+	<dataSource type="JDBC" name="sup_G1917348544200011A1001A"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_gkzsqwsfwzx"  jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_72875828744200012A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_gzhzyy"       jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1917348544200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_gkyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1916965444200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_sxldyy"       jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1917352244200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_dyyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1917209544200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_bfyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1917207944200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_nlyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_45726642344200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_gzrmyy"       jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_45726643144200011A5241"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_dmyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1916992944200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_swyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1917384844200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_dfrmyy"       jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_45726620444200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_bayy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_45726533244200011A2101"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_zyy"          jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1916968944200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_tbyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1917099744200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_nqyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_45726626344200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_xqyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1917051644200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_sjyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1917047944200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_hlyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1916826444200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_mzyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1916914444200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_hprmyy"       jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1917103344200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_cxhyy"        jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_45726530844200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_rmyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_66333399X44200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_dermyy"       jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1916854744200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_dsyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_45726536744200011A5201"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_dsrmyy"       jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_56081937244200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_dermyynqfy"   jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1917150044200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_fsyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_45726623944200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_dqyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_G1917105X44200011A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_xlrmyy"       jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_77782944044200017A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_tfyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_66149336744200017A5132"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_xhyy"         jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<dataSource type="JDBC" name="sup_73313500944200090A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_byzxczgyy"    jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+	<!--中山南头广济医院-->
+	<dataSource type="JDBC" name="sup_70764024744200090A1001"	jdbc_driver="oracle.jdbc.OracleDriver" jdbc_url="jdbc:oracle:thin:@55.0.1.30:1521:orcl1" jdbc_username="sup_ntgjyy"    jdbc_password="zsyldb_2017" maxActive="150" maxWait="10000" validationQuery="SELECT 1 FROM DUAL" />
+</db>

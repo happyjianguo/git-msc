@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/../msc-web-count/src/main/java/com/shyl/msc/count/controller/HospitalC4Controller.java" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="com.shyl" />
+        <module name="msc-common-config" />
+        <module name="msc-facade-b2b" />
+        <module name="msc-facade-base" />
+        <module name="msc-facade-client" />
+        <module name="msc-facade-count" />
+        <module name="msc-facade-supervise" />
+        <module name="msc-service-b2b" />
+        <module name="msc-service-base" />
+        <module name="msc-service-client" />
+        <module name="msc-service-count" />
+        <module name="msc-service-supervise" />
+        <module name="msc-web-admin" />
+        <module name="msc-web-b2b" />
+        <module name="msc-web-b2bsearch" />
+        <module name="msc-web-base" />
+        <module name="msc-web-count" />
+        <module name="msc-web-medic" />
+        <module name="msc-web-supervise" />
+        <module name="msc-webservice-b2b" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="com.shyl" target="1.7" />
+      <module name="msc-common-config" target="1.8" />
+      <module name="msc-common-parent" target="1.5" />
+      <module name="msc-facade-b2b" target="1.8" />
+      <module name="msc-facade-base" target="1.8" />
+      <module name="msc-facade-client" target="1.8" />
+      <module name="msc-facade-count" target="1.8" />
+      <module name="msc-facade-supervise" target="1.8" />
+      <module name="msc-service-b2b" target="1.8" />
+      <module name="msc-service-base" target="1.8" />
+      <module name="msc-service-client" target="1.8" />
+      <module name="msc-service-count" target="1.8" />
+      <module name="msc-service-supervise" target="1.8" />
+      <module name="msc-web-admin" target="1.8" />
+      <module name="msc-web-b2b" target="1.8" />
+      <module name="msc-web-b2bsearch" target="1.8" />
+      <module name="msc-web-base" target="1.8" />
+      <module name="msc-web-count" target="1.8" />
+      <module name="msc-web-medic" target="1.8" />
+      <module name="msc-web-supervise" target="1.8" />
+      <module name="msc-web-sys" target="1.8" />
+      <module name="msc-webservice-b2b" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

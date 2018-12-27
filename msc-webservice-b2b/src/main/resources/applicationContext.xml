@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:cache="http://www.springframework.org/schema/cache"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache-4.1.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.1.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.1.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.1.xsd">
+
+	<!-- 引入属性文件 -->
+	<context:property-placeholder location="classpath:public_system.properties" />
+	
+	<!-- 自动扫描dao和service包(自动注入) -->
+	<context:component-scan base-package="com.shyl" >
+		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />
+		<context:exclude-filter type="aspectj" expression="com.shyl.common.cache..*" /> 
+	</context:component-scan>
+
+	<!-- 开启这个配置，spring才能识别@Scheduled注解   -->  
+    <task:annotation-driven scheduler="qbScheduler" mode="proxy"/>  
+    <task:scheduler id="qbScheduler" pool-size="10"/>
+    
+    <!-- Mongo GridFS -->
+	<bean id="gridFSDAO" class="com.shyl.common.util.GridFSDAO">
+		<constructor-arg name="hostname" value="${mongo.gridfs.hostname}" />
+		<constructor-arg name="port" value="${mongo.gridfs.port}" />
+		<constructor-arg name="dbname" value="${mongo.gridfs.dbname}" />
+	</bean>
+	
+	<bean id="lockCollection" class="com.shyl.common.cache.lock.LockCollection">
+        <property name="lockFactory" ref="lockFactory" />
+    </bean> 
+    <bean id="lockFactory" class="com.shyl.common.cache.lock.LockFactory">
+        <property name="cf" ref="curatorFramework" />
+    </bean> 
+     <!-- 重连策略 -->
+    <bean id="retryPolicy" class="org.apache.curator.retry.ExponentialBackoffRetry">
+        <!-- 间隔时间基数 -->
+        <constructor-arg index="0" value="1000" />
+        <!-- 重连策略 -->
+        <constructor-arg index="1" value="3" />
+    </bean>
+
+    <bean id="curatorFramework" class="org.apache.curator.framework.CuratorFrameworkFactory" factory-method="newClient" init-method="start">
+        <constructor-arg index="0" value="${zkclient.zkServers}" />
+        <!-- sessionTimeoutMs会话超时时间，单位为毫秒。默认是60000ms  -->
+        <constructor-arg index="1" value="${zkclient.sessionTimeout}" />
+        <!-- connectionTimeoutMs连接创建超时时间，单位毫秒，默认15000ms -->
+        <constructor-arg index="2" value="${zkclient.connectionTimeout}" />
+        <constructor-arg index="3" ref="retryPolicy" />
+    </bean>
+    <import resource="dubbo-consumer.xml" />
+    
+    
+    <!-- 真正可以产生Connection的ConnectionFactory，由对应的 JMS服务厂商提供-->  
+<!-- <bean id="targetConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">  
+    <property name="brokerURL" value="tcp://localhost:61616"/>  
+</bean>  
+  
+<bean id="pooledConnectionFactory" class="org.apache.activemq.pool.PooledConnectionFactory">  
+    <property name="connectionFactory" ref="targetConnectionFactory"/>  
+    <property name="maxConnections" value="10"/>  
+</bean>  
+  
+<bean id="connectionFactory" class="org.springframework.jms.connection.SingleConnectionFactory">  
+    <property name="targetConnectionFactory" ref="pooledConnectionFactory"/>  
+</bean>   -->
+
+
+</beans>

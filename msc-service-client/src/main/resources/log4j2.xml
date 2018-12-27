@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="warn">
+    <Appenders>
+        <Console name="myConsole" target="SYSTEM_OUT">
+            <ThresholdFilter level="debug" onMatch="ACCEPT"/>
+            <PatternLayout pattern="[%-5p] %d [%t]%c.%M --> %m %x %n"/>
+        </Console>
+        <RollingFile name="activexAppender" fileName="logs/msc-service.log"
+                     filePattern="logs/msc-service.%d{yyyy-MM-dd}.log">
+            <ThresholdFilter level="debug" onMatch="ACCEPT"/>
+            <PatternLayout>
+                <Pattern>[%-5p] %d [%t]%c.%M --> %m %x %n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <!-- 每天滚存日志 -->
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+            </Policies>
+            <DefaultRolloverStrategy>
+                <Delete basePath="logs" maxDepth="1">
+                    <IfFileName glob="msc-service*.log" />
+                    <!-- 日志保存时间 -->
+                    <IfLastModified age="7d" />
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <AsyncLogger name="org.hibernate.hql" level="debug" additivity="false">
+            <AppenderRef ref="myConsole"/>
+            <AppenderRef ref="activexAppender"/>
+        </AsyncLogger>
+        <AsyncLogger name="org.hibernate.sql" level="debug" additivity="false">
+            <AppenderRef ref="myConsole"/>
+            <AppenderRef ref="activexAppender"/>
+        </AsyncLogger>
+        <AsyncRoot level="INFO">
+            <AppenderRef ref="myConsole"/>
+            <AppenderRef ref="activexAppender"/>
+        </AsyncRoot>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.1.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.1.xsd"
+		>
+		
+	<aop:aspectj-autoproxy proxy-target-class="true"/>
+		
+	<context:component-scan base-package="com.shyl" use-default-filters="false">
+		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+	</context:component-scan>
+	  
+	  <mvc:interceptors>  
+	    <!-- 使用bean定义一个Interceptor，直接定义在mvc:interceptors根下面的Interceptor将拦截所有的请求 -->  
+	    <bean class="com.shyl.sys.service.realm.SpringMVCInterceptor"/>  
+	</mvc:interceptors> 
+	
+	<mvc:annotation-driven content-negotiation-manager="contentNegotiationManager">
+		<mvc:argument-resolvers>
+		     <bean class="com.shyl.common.framework.argumentsResolver.CurrentUserArgumentsResolver"/>
+		     <bean class="com.shyl.common.framework.argumentsResolver.FastjsonArgumentsResolver"/>
+		</mvc:argument-resolvers>
+	    <mvc:message-converters>
+            <bean id="jsonConverter" class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+                <property name="supportedMediaTypes" value="text/html;charset=UTF-8" />
+            	<property name="objectMapper">  
+                    <bean class="com.fasterxml.jackson.databind.ObjectMapper">  
+                        <property name="dateFormat">  
+                            <bean class="java.text.SimpleDateFormat">  
+                                <constructor-arg type="java.lang.String" value="yyyy-MM-dd HH:mm:ss" />  
+                            </bean>  
+                        </property>  
+                    </bean>  
+                </property> 
+            </bean>  
+        </mvc:message-converters> 
+	</mvc:annotation-driven>
+	 
+	 <bean id="contentNegotiationManager" class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">   
+	    <property name="favorPathExtension" value="false" />  
+	    <property name="favorParameter" value="false" />   
+	    <property name="ignoreAcceptHeader" value="false" />   
+	    <property name="mediaTypes" >   
+	        <value>  
+	            atom=application/atom+xml  
+	            html=text/html  
+	            json=application/json  
+	            *=*/*  
+	        </value>   
+	    </property>  
+	</bean>
+	
+	<!-- 上传文件拦截，设置最大上传文件大小   15M=15*1024*1024(B)=15728640 bytes -->  
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">  
+	    <property name="maxUploadSize" value="25728640" />  
+	</bean>
+	
+	<mvc:resources location="/resources/" mapping="/resources/**"/>
+	<!--JSP视图解析器-->
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<!-- jstl标签库正常使用 -->
+		<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+		<!-- 前缀 -->
+		<property name="prefix" value="/WEB-INF/jsp/"/>
+		<!-- 后缀-->
+		<property name="suffix" value=".jsp"/>
+		<!-- 
+		<property name="viewClass" value="org.springframework.web.servlet.view.InternalResourceView"/> -->
+		<property name="order" value="1"/>
+		<property name="attributes" ref="constants" />
+		<property name="redirectHttp10Compatible" value="false" /> 
+	</bean>
+	
+	<util:map id="constants">
+		<entry key="comHelper" value-ref="commonHelper" />
+	</util:map>
+	
+
+</beans>

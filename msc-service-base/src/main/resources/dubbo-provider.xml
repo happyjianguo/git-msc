@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd">
+ 	
+    <!-- 提供方应用信息，用于计算依赖关系 -->
+    <dubbo:application name="msc-provider"  logger="slf4j" />
+ 
+ 	<!-- 使用zookeeper注册中心暴露服务地址 -->
+	<dubbo:registry protocol="zookeeper" address="${dubbo.registry.address}" file="${dubbo.registry.file.base}"/>
+	
+    <!-- 用dubbo协议在20880端口暴露服务 -->
+    <dubbo:protocol name="dubbo" port="${dubbo.protocol.base.port}" accepts="500" iothreads="500" threads="500"/>
+ 	<!-- 监控中心配置 --> 
+	<!-- <dubbo:monitor protocol="registry"/> -->
+
+    <!--调整dubbo  请求及响应数据包大小限制，单位：字节-->
+    <dubbo:provider id="payload" payload="11557050"/>
+	
+    <!-- 声明需要暴露的服务接口 -->
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IFileManagementService" ref="fileManagementService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IGroupService" ref="groupService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IGroupUserService" ref="groupUserService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IMsgItemService" ref="msgItemService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IMsgService" ref="msgService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IPermissionService" ref="permissionService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IResourceService" ref="resourceService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IUserService" ref="userService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IMenuService" ref="menuService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IOrganizationService" ref="organizationService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IActionLogService" ref="actionLogService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IAttributeItemService" ref="attributeItemService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.sys.service.IAttributeService" ref="attributeService" timeout="${dubbo.timeout}"/>
+    
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IDosageFormService" ref="dosageFormService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IDrugService" ref="drugService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IDrugTypeService" ref="drugTypeService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IProductPriceDayService" ref="productPriceDayService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IProductPriceService" ref="productPriceService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IProductVendorService" ref="productVendorService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IProductService" ref="productService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IProductDetailService" ref="productDetailService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IProductRegisterService" ref="productRegisterService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IProductRegisterDetailService" ref="productRegisterDetailService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IGoodsService" ref="goodsService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IGoodsPriceService" ref="goodsPriceService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IGoodsHospitalService" ref="goodsHospitalService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IGoodsHospitalSourceService" ref="goodsHospitalSourceService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.ISicknessService" ref="sicknessService" timeout="${dubbo.timeout}"/>
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.ISicknessProductService" ref="sicknessProductService" timeout="${dubbo.timeout}"/>
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IDirectoryService" ref="directoryService" timeout="${dubbo.timeout}"/>
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IGpoProductListService" ref="gpoProductListService" timeout="${dubbo.timeout}"/>
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IPrescriptProductService" ref="prescriptProductService" timeout="${dubbo.timeout}"/>
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IProductPriceRecordService" ref="productPriceRecordService" timeout="${dubbo.timeout}"/>
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IProductPriceRecordHisService" ref="productPriceRecordHisService" timeout="${dubbo.timeout}"/>
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IDirectoryPriceService" ref="directoryPriceService" timeout="${dubbo.timeout}"/>
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IDirectoryPriceRecordService" ref="directoryPriceRecordService" timeout="${dubbo.timeout}"/>
+ 	<dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.dm.service.IGoodsCountryService" ref="goodsCountryService" timeout="${dubbo.timeout}"/>
+
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IAddressService" ref="addressService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.ICompanyService" ref="companyService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.ICompanyCertService" ref="companyCertService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.ICompanyCertRegService" ref="companyCertRegService" timeout="${dubbo.timeout}"/>
+    
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IBlacklistService" ref="blacklistService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IHospitalService" ref="hospitalService" timeout="${dubbo.timeout}"/> 
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IRegionCodeService" ref="regionCodeService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IRegulationOrgService" ref="regulationOrgService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IWarehouseService" ref="warehouseService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IWarehouseTempService" ref="warehouseTempService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.INoticeService" ref="noticeService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IPatientService" ref="patientService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IVendorSenderService" ref="vendorSenderService" timeout="${dubbo.timeout}"/>   
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IProjectService" ref="projectService" timeout="${dubbo.timeout}"/>  
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IProjectDetailService" ref="projectDetailService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IExpertService" ref="expertService" timeout="${dubbo.timeout}"/>
+    <dubbo:service loadbalance="${dubbo.loadbalance}" interface="com.shyl.msc.set.service.IProjectExpertService" ref="projectExpertService" timeout="${dubbo.timeout}"/>
+  
+ </beans>

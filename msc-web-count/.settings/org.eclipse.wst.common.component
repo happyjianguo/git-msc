@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="msc-web-count">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="shyl-common-web-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/shyl-common-web/shyl-common-web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="shyl-common-entity-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/shyl-common-entity/shyl-common-entity">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="shyl-common-cache-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/shyl-common-cache/shyl-common-cache">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="shyl-common-ca-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/shyl-common-ca/shyl-common-ca">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="shyl-common-util-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/shyl-common-util/shyl-common-util">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="msc-common-config-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/msc-common-config/msc-common-config">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="msc-facade-sys-0.0.14.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/msc-facade-sys/msc-facade-sys">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="shyl-common-framework-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/shyl-common-framework/shyl-common-framework">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="msc-facade-base-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/msc-facade-base/msc-facade-base">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="msc-facade-b2b-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/msc-facade-b2b/msc-facade-b2b">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/overlay/prj/msc-web-base?includes=**/**&amp;excludes=META-INF/MANIFEST.MF">
+            <dependency-type>consumes</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/overlay/prj/msc-web-sys?includes=**/**&amp;excludes=META-INF/MANIFEST.MF">
+            <dependency-type>consumes</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/overlay/prj/msc-web-common?includes=**/**&amp;excludes=META-INF/MANIFEST.MF">
+            <dependency-type>consumes</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/overlay/slf/?includes=**/**&amp;excludes=META-INF/MANIFEST.MF">
+            <dependency-type>consumes</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="msc-web-count"/>
+        <property name="java-output-path" value="/msc-web-count/target/classes"/>
+    </wb-module>
+</project-modules>
